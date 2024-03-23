@@ -1,0 +1,175 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "androidx.room.compiler",
+            "nodename": "androidx.room.compiler",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.google",
+            "nodename": "com.google",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "com.squareup",
+            "nodename": "com.squareup",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "io.grpc",
+            "nodename": "io.grpc",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "dagger#424",
+            "nodename": "java/dagger#424-174",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "functional#425",
+            "nodename": "javatests/dagger/functional#425-343",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "#426",
+            "nodename": "#426-60",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "codegen#427",
+            "nodename": "java/dagger/internal/codegen#427-370",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "dagger#428",
+            "nodename": "javatests/dagger#428-22",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "codegen#429",
+            "nodename": "javatests/dagger/internal/codegen#429-110",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "functional#430",
+            "nodename": "javatests/dagger/functional#430-45",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "hilt#431",
+            "nodename": "java/dagger/hilt#431-165",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "generictypes#432",
+            "nodename": "javatests/dagger/functional/generictypes#432-26",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "producers#433",
+            "nodename": "java/dagger/producers#433-52",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "internal#434",
+            "nodename": "java/dagger/hilt/processor/internal#434-76",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "library1#435",
+            "nodename": "javatests/artifacts/dagger/transitive-annotation-app/library1/src/main/java/library1#435-23",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 11,
+            "target": 6,
+            "value": 0.126169268856437597,
+            "sourcename": "hilt#431 ",
+            "targetname": " #426"
+        },
+        {
+            "source": 15,
+            "target": 9,
+            "value": 0.14053305714635907,
+            "sourcename": "internal#434 ",
+            "targetname": "codegen#429"
+        },
+        {
+            "source": 15,
+            "target": 7,
+            "value": 6.231925086359322,
+            "sourcename": "internal#434 ",
+            "targetname": "codegen#427"
+        },
+        {
+            "source": 13,
+            "target": 8,
+            "value": 0.8611170634385246,
+            "sourcename": "producers#433 ",
+            "targetname": "dagger#428"
+        },
+        {
+            "source": 10,
+            "target": 6,
+            "value": 0.7397628363559434,
+            "sourcename": "functional#430 ",
+            "targetname": " #426"
+        },
+        {
+            "source": 12,
+            "target": 6,
+            "value": 0.15701561313862555,
+            "sourcename": "generictypes#432 ",
+            "targetname": " #426"
+        },
+        {
+            "source": 9,
+            "target": 7,
+            "value": 31.943477074704788,
+            "sourcename": "codegen#429 ",
+            "targetname": "codegen#427"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

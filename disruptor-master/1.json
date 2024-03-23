@@ -1,0 +1,189 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.openjdk.jmh",
+            "nodename": "org.openjdk.jmh",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.openjdk.jcstress",
+            "nodename": "org.openjdk.jcstress",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.hamcrest",
+            "nodename": "org.hamcrest",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org,junit.jupiter",
+            "nodename": "org,junit.jupiter",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "disruptor#39",
+            "nodename": "src/jcstress/java/com/lmax/disruptor#39-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "disruptor#40",
+            "nodename": "src/jmh/java/com/lmax/disruptor#40-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "disruptor#41",
+            "nodename": "src/test/java/com/lmax/disruptor#41-36",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "immutable#42",
+            "nodename": "src/perftest/java/com/lmax/disruptor/immutable#42-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "support#43",
+            "nodename": "src/perftest/java/com/lmax/disruptor/support#43-26",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "src#44",
+            "nodename": "src#44-99",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "disruptor#45",
+            "nodename": "src/main/java/com/lmax/disruptor#45-60",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 4,
+            "target": 10,
+            "value": 7.6778594041686175,
+            "sourcename": "disruptor#39 ",
+            "targetname": "disruptor#45"
+        },
+        {
+            "source": 4,
+            "target": 9,
+            "value": 0.0726778479158858,
+            "sourcename": "disruptor#39 ",
+            "targetname": " src#44"
+        },
+        {
+            "source": 5,
+            "target": 10,
+            "value": 2.984887372654501,
+            "sourcename": "disruptor#40 ",
+            "targetname": "disruptor#45"
+        },
+        {
+            "source": 5,
+            "target": 9,
+            "value": 2.2245488178107604,
+            "sourcename": "disruptor#40 ",
+            "targetname": " src#44"
+        },
+        {
+            "source": 10,
+            "target": 9,
+            "value": 2.9323604616716317,
+            "sourcename": "disruptor#45 ",
+            "targetname": " src#44"
+        },
+        {
+            "source": 7,
+            "target": 10,
+            "value": 0.4474748959303535,
+            "sourcename": "immutable#42 ",
+            "targetname": "disruptor#45"
+        },
+        {
+            "source": 7,
+            "target": 9,
+            "value": 1.3017157789879865,
+            "sourcename": "immutable#42 ",
+            "targetname": " src#44"
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "value": 0.6279781939531177,
+            "sourcename": "support#43 ",
+            "targetname": " src#44"
+        },
+        {
+            "source": 6,
+            "target": 10,
+            "value": 2.119322615195409,
+            "sourcename": "disruptor#41 ",
+            "targetname": "disruptor#45"
+        },
+        {
+            "source": 6,
+            "target": 9,
+            "value": 1.056990310045213,
+            "sourcename": "disruptor#41 ",
+            "targetname": " src#44"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "value": 15.825080029991678,
+            "sourcename": " src#44 ",
+            "targetname": "disruptor#45"
+        },
+        {
+            "source": 9,
+            "target": 7,
+            "value": 0.09493570959507287,
+            "sourcename": " src#44 ",
+            "targetname": "immutable#42"
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "value": 2.5307654427744586,
+            "sourcename": " src#44 ",
+            "targetname": "support#43"
+        },
+        {
+            "source": 9,
+            "target": 6,
+            "value": 0.10340311930532074,
+            "sourcename": " src#44 ",
+            "targetname": "disruptor#41"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

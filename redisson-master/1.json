@@ -1,0 +1,204 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.fasterxml.jackson",
+            "nodename": "com.fasterxml.jackson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "io.micronaut",
+            "nodename": "io.micronaut",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "io.netty",
+            "nodename": "io.netty",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "io.quarkus",
+            "nodename": "io.quarkus",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "org.junit.jupiter",
+            "nodename": "org.junit.jupiter",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "org.springframework",
+            "nodename": "org.springframework",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "mybatis#254",
+            "nodename": "redisson-mybatis/src/test/java/org/redisson/mybatis#254-1",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 7,
+            "name": "src#255",
+            "nodename": "redisson-helidon/redisson-helidon-30/src#255-3",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 8,
+            "name": "starter#256",
+            "nodename": "redisson-spring-boot-starter/src/test/java/org/redisson/spring/starter#256-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "stream#257",
+            "nodename": "redisson/src/main/java/org/redisson/api/stream#257-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "tomcat#258",
+            "nodename": "redisson-tomcat/redisson-tomcat-10/src/main/java/org/redisson/tomcat#258-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "query#259",
+            "nodename": "redisson/src/main/java/org/redisson/api/search/query#259-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "session#260",
+            "nodename": "redisson-micronaut/redisson-micronaut-20/src/main/java/org/redisson/micronaut/session#260-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "redisson#261",
+            "nodename": "redisson/src/main/java/org/redisson#261-1387",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "redisson",
+            "nodename": "redisson-quarkus#262-32",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 15,
+            "name": "redisson",
+            "nodename": "redisson-micronaut#263-36",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 16,
+            "name": "connection#264",
+            "nodename": "redisson-spring-data/redisson-spring-data-21/src/main/java/org/redisson/spring/data/connection#264-46",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 17,
+            "name": "redisson",
+            "nodename": "redisson-tomcat#265-48",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 18,
+            "name": "src#266",
+            "nodename": "redisson/src#266-52",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 19,
+            "name": "redisson",
+            "nodename": "redisson-hibernate#267-73",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 20,
+            "name": "redisson",
+            "nodename": "redisson-spring-data#268-615",
+            "symbolSize": 5,
+            "category": ""
+        }
+    ],
+    "links": [
+
+        {
+            "source": 8,
+            "target": 13,
+            "value": 4.077442244537861,
+            "sourcename": "starter#256 ",
+            "targetname": "redisson#261"
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "value": 3.435783115250812,
+            "sourcename": "connection#264 ",
+            "targetname": "redisson#261"
+        },
+        {
+            "source": 11,
+            "target": 13,
+            "value": 3.4552358404083194,
+            "sourcename": "query#259 ",
+            "targetname": "redisson#261"
+        },
+        {
+            "source": 9,
+            "target": 13,
+            "value": 7.0646313807831245,
+            "sourcename": "stream#257 ",
+            "targetname": "redisson#261"
+        },
+        {
+            "source": 13,
+            "target": 12,
+            "value": 5.68850842122738,
+            "sourcename": "redisson#261 ",
+            "targetname": "session#260"
+        },
+        {
+            "source": 13,
+            "target": 10,
+            "value": 6.553117018405579,
+            "sourcename": "redisson#261 ",
+            "targetname": "tomcat#258"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

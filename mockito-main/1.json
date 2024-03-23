@@ -1,0 +1,161 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "net.bytebuddy",
+            "nodename": "net.bytebuddy",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.google.errorprone",
+            "nodename": "com.google.errorprone",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.assertj.core",
+            "nodename": "org.assertj.core",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "mockitousage#220",
+            "nodename": "subprojects/junit-jupiter/src/test/java/org/mockitousage#220-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "strictness#221",
+            "nodename": "src/test/java/org/mockitousage/strictness#221-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "src#222",
+            "nodename": "src#222-804",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "reflection#223",
+            "nodename": "src/test/java/org/mockito/internal/util/reflection#223-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "verification#224",
+            "nodename": "src/main/java/org/mockito/exceptions/verification#224-13",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "stubbing#225",
+            "nodename": "src/main/java/org/mockito/stubbing#225-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "bugs#226",
+            "nodename": "src/test/java/org/mockitousage/bugs#226-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "mockitoinline#227",
+            "nodename": "subprojects/inlineTest/src/test/java/org/mockitoinline#227-19",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "subprojects#228",
+            "nodename": "subprojects#228-28",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "src#229",
+            "nodename": "src#229-41",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 9,
+            "target": 6,
+            "value": 8.995689537906594,
+            "sourcename": "stubbing#225 ",
+            "targetname": " src#222"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "value": 5.725837353771536,
+            "sourcename": " src#222 ",
+            "targetname": "reflection#223"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "value": 2.0174512300799625,
+            "sourcename": " src#222 ",
+            "targetname": "verification#224"
+        },
+        {
+            "source": 10,
+            "target": 6,
+            "value": 5.125351869391749,
+            "sourcename": "bugs#226 ",
+            "targetname": " src#222"
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "value": 9.909676638340754,
+            "sourcename": "strictness#221 ",
+            "targetname": " src#222"
+        },
+        {
+            "source": 11,
+            "target": 6,
+            "value": 4.926190265510707,
+            "sourcename": "mockitoinline#227 ",
+            "targetname": " src#222"
+        },
+        {
+            "source": 4,
+            "target": 6,
+            "value": 0.975108099610959,
+            "sourcename": "mockitousage#220 ",
+            "targetname": " src#222"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

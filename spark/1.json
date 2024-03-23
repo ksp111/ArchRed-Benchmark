@@ -1,0 +1,147 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.apache.http",
+            "nodename": "org.apache.http",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.eclipse.jetty",
+            "nodename": "org.eclipse.jetty",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.mockito",
+            "nodename": "org.mockito",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "spark#83",
+            "nodename": "src/main/java/spark#83-92",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "spark#84",
+            "nodename": "src/test/java/spark#84-23",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "spark#85",
+            "nodename": "src/test/java/spark#85-45",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "utils#86",
+            "nodename": "src/main/java/spark/utils#86-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "sugar#87",
+            "nodename": "src/test/java/spark/examples/sugar#87-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "templateview#88",
+            "nodename": "src/test/java/spark/examples/templateview#88-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "transformer#89",
+            "nodename": "src/test/java/spark/examples/transformer#89-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "websocket#90",
+            "nodename": "src/main/java/spark/embeddedserver/jetty/websocket#90-5",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 4,
+            "target": 11,
+            "value": 0.6037821554240456,
+            "sourcename": "spark#83 ",
+            "targetname": "websocket#90"
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "value": 15.93572042823428,
+            "sourcename": "spark#83 ",
+            "targetname": "utils#86"
+        },
+        {
+            "source": 4,
+            "target": 10,
+            "value": 2.920273431083056,
+            "sourcename": "spark#83 ",
+            "targetname": "transformer#89"
+        },
+        {
+            "source": 8,
+            "target": 4,
+            "value": 0.3124651064359663,
+            "sourcename": "sugar#87 ",
+            "targetname": "spark#83"
+        },
+        {
+            "source": 9,
+            "target": 4,
+            "value": 0.23618594857002884,
+            "sourcename": "templateview#88 ",
+            "targetname": "spark#83"
+        },
+        {
+            "source": 6,
+            "target": 4,
+            "value": 16.554456759456997,
+            "sourcename": "spark#85 ",
+            "targetname": "spark#83"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "value": 2.4997208514877305,
+            "sourcename": "spark#85 ",
+            "targetname": "utils#86"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

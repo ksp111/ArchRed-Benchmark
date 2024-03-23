@@ -1,0 +1,168 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.google.errorprone",
+            "nodename": "com.google.errorprone",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.checkerframework.checker",
+            "nodename": "org.checkerframework.checker",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "#186",
+            "nodename": "#186-1342",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 3,
+            "name": "collect#187",
+            "nodename": "guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect#187-63",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "guava",
+            "nodename": "guava-tests#188-22",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "base#189",
+            "nodename": "guava-tests/test/com/google/common/base#189-30",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "collect#190",
+            "nodename": "guava-tests/test/com/google/common/collect#190-48",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "io#191",
+            "nodename": "guava-tests/test/com/google/common/io#191-30",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "android#192",
+            "nodename": "android#192-1534",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "concurrent#193",
+            "nodename": "guava/src/com/google/common/util/concurrent#193-33",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "common#194",
+            "nodename": "guava/src/com/google/common#194-34",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "concurrent#195",
+            "nodename": "guava-tests/test/com/google/common/util/concurrent#195-57",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "concurrent#196",
+            "nodename": "futures/listenablefuture1/src/com/google/common/util/concurrent#196-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "features#197",
+            "nodename": "guava-testlib/src/com/google/common/collect/testing/features#197-5",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 13,
+            "target": 2,
+            "value": 0.2976667069119501,
+            "sourcename": "features#197 ",
+            "targetname": " #186"
+        },
+        {
+            "source": 10,
+            "target": 2,
+            "value": 3.0951981998674283,
+            "sourcename": "common#194 ",
+            "targetname": " #186"
+        },
+        {
+            "source": 5,
+            "target": 2,
+            "value": 8.776198990383502,
+            "sourcename": "base#189 ",
+            "targetname": " #186"
+        },
+        {
+            "source": 6,
+            "target": 2,
+            "value": 4.069221585863382,
+            "sourcename": "collect#190 ",
+            "targetname": " #186"
+        },
+        {
+            "source": 11,
+            "target": 2,
+            "value": 4.987248407066237,
+            "sourcename": "concurrent#195 ",
+            "targetname": " #186"
+        },
+        {
+            "source": 9,
+            "target": 2,
+            "value": 3.1877647319659874,
+            "sourcename": "concurrent#193 ",
+            "targetname": " #186"
+        },
+        {
+            "source": 2,
+            "target": 10,
+            "value": 2.248464911498081,
+            "sourcename": " #186 ",
+            "targetname": "common#194"
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "value": 6.45753614557504,
+            "sourcename": " #186 ",
+            "targetname": "io#191"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

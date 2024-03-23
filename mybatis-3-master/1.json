@@ -1,0 +1,182 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.slf4j",
+            "nodename": "org.slf4j",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.w3c.dom",
+            "nodename": "org.w3c.dom",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.mockito",
+            "nodename": "org.mockito",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.junit.jupiter",
+            "nodename": "org.junit.jupiter",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "net.sf.cglib",
+            "nodename": "net.sf.cglib",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "org.apache.logging",
+            "nodename": "org.apache.logging",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "wrapper#352",
+            "nodename": ".mvn/wrapper#352-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "src#353",
+            "nodename": "src#353-97",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "type#354",
+            "nodename": "src/test/java/org/apache/ibatis/type#354-68",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "lazyload_proxyfactory_comparison#355",
+            "nodename": "src/test/java/org/apache/ibatis/submitted/lazyload_proxyfactory_comparison#355-13",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "src#356",
+            "nodename": "src#356-634",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "orphan_result_maps#357",
+            "nodename": "src/test/java/org/apache/ibatis/submitted/orphan_result_maps#357-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "xml_external_ref#358",
+            "nodename": "src/test/java/org/apache/ibatis/submitted/xml_external_ref#358-29",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "submitted#359",
+            "nodename": "src/test/java/org/apache/ibatis/submitted#359-419",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "jdbc#360",
+            "nodename": "src/test/java/org/apache/ibatis/transaction/jdbc#360-3",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 9,
+            "target": 10,
+            "value": 0.16093192995242755,
+            "sourcename": "lazyload_proxyfactory_comparison#355 ",
+            "targetname": " src#356"
+        },
+        {
+            "source": 9,
+            "target": 13,
+            "value": 0.013514262118071201,
+            "sourcename": "lazyload_proxyfactory_comparison#355 ",
+            "targetname": "submitted#359"
+        },
+        {
+            "source": 11,
+            "target": 10,
+            "value": 0.31298121881598423,
+            "sourcename": "orphan_result_maps#357 ",
+            "targetname": " src#356"
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "value": 5.730281886352488,
+            "sourcename": "xml_external_ref#358 ",
+            "targetname": " src#356"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "value": 0.2536242353043669,
+            "sourcename": "xml_external_ref#358 ",
+            "targetname": "submitted#359"
+        },
+        {
+            "source": 13,
+            "target": 10,
+            "value": 27.2976043308185,
+            "sourcename": "submitted#359 ",
+            "targetname": " src#356"
+        },
+        {
+            "source": 13,
+            "target": 8,
+            "value": 0.040542786354213614,
+            "sourcename": "submitted#359 ",
+            "targetname": "type#354"
+        },
+        {
+            "source": 14,
+            "target": 10,
+            "value": 0.16051885813095193,
+            "sourcename": "jdbc#360 ",
+            "targetname": " src#356"
+        },
+        {
+            "source": 8,
+            "target": 10,
+            "value": 2.8213984471327387,
+            "sourcename": "type#354 ",
+            "targetname": " src#356"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

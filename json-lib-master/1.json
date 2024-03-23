@@ -1,0 +1,133 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "nu.xom",
+            "nodename": "org.kordamp.ezmorph",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "junit.framework.TestCase",
+            "nodename": "google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.apache.commons",
+            "nodename": "google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.kordamp.ezmorph",
+            "nodename": "google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "org.custommonkey.xmlunit.XMLTestCase",
+            "nodename": "google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "Processors",
+            "nodename": "subprojects/json-lib-core/src/test/java/org/kordamp/json/processors#35-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "JsonArray",
+            "nodename": "subprojects/json-lib-core/src#36-97",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "TestJson",
+            "nodename": "subprojects/json-lib-core/src/test/java/org/kordamp/json#37-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "JsonObject",
+            "nodename": "subprojects/json-lib-core/src/test/java/org/kordamp/json#38-23",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "Sample",
+            "nodename": "subprojects/json-lib-core/src/test/java/org/kordamp/json/sample#39-37",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 8,
+            "target": 9,
+            "value": 3.568697425439714,
+            "sourcename": "json#38 ",
+            "targetname": "sample#39"
+        },
+        {
+            "source": 8,
+            "target": 6,
+            "value": 19.77058373693602,
+            "sourcename": "json#38 ",
+            "targetname": "src#36"
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 0.99923527912312,
+            "sourcename": "json#37 ",
+            "targetname": "json#38"
+        },
+        {
+            "source": 7,
+            "target": 9,
+            "value": 0.28549579403517716,
+            "sourcename": "json#37 ",
+            "targetname": "sample#39"
+        },
+        {
+            "source": 7,
+            "target": 6,
+            "value": 0.14274789701758858,
+            "sourcename": "json#37 ",
+            "targetname": "src#36"
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "value": 6.9946469538618405,
+            "sourcename": "processors#35 ",
+            "targetname": "src#36"
+        },
+        {
+            "source": 6,
+            "target": 9,
+            "value": 5.669130767269945,
+            "sourcename": "src#36 ",
+            "targetname": "sample#39"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

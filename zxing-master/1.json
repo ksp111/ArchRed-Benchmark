@@ -1,0 +1,155 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "android",
+            "nodename": "android",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.google.gwt",
+            "nodename": "com.google.gwt",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "jakarta.servlet",
+            "nodename": "jakarta.servlet",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.w3c.dom",
+            "nodename": "org.w3c.dom",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "camera#153",
+            "nodename": "android-core/src/main/java/com/google/zxing/client/android/camera#153-1",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 5,
+            "name": "android#154",
+            "nodename": "android-integration/src/main/java/com/google/zxing/integration/android#154-2",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 6,
+            "name": "camera#155",
+            "nodename": "android/src/com/google/zxing/client/android/camera#155-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "encode#156",
+            "nodename": "android/src/com/google/zxing/client/android/encode#156-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "web#157",
+            "nodename": "zxingorg/src/main/java/com/google/zxing/web#157-11",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "j2se#158",
+            "nodename": "javase/src/main/java/com/google/zxing/client/j2se#158-11",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "web#159",
+            "nodename": "zxingorg/src/test/java/com/google/zxing/web#159-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "client#160",
+            "nodename": "zxing.appspot.com/src/main/java/com/google/zxing/web/generator/client#160-16",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 12,
+            "name": "decoders#161",
+            "nodename": "core/src/main/java/com/google/zxing/oned/rss/expanded/decoders#161-19",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "src#162",
+            "nodename": "core/src#162-425",
+            "symbolSize": 5,
+            "category": ""
+        }
+    ],
+    "links": [
+
+        {
+            "source": 7,
+            "target": 10,
+            "value": 3.8002537300492865,
+            "sourcename": "encode#156 ",
+            "targetname": "src#162"
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "value": 8.511281034354973,
+            "sourcename": "decoders#161 ",
+            "targetname": "src#162"
+        },
+        {
+            "source": 10,
+            "target": 6,
+            "value": 4.378239325210645,
+            "sourcename": "src#162 ",
+            "targetname": "camera#155"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "value": 13.659823875543278,
+            "sourcename": "j2se#158 ",
+            "targetname": "src#162"
+        },
+        {
+            "source": 8,
+            "target": 10,
+            "value": 7.037473051690068,
+            "sourcename": "web#157 ",
+            "targetname": "src#162"
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "value": 0.27316097507883547,
+            "sourcename": "web#157 ",
+            "targetname": "j2se#158"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

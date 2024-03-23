@@ -1,0 +1,154 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.slf4j.LoggerFactory",
+            "nodename": "com.github.dreamhead.moco",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.junit.Test",
+            "nodename": "org.apache.http",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.apache.http",
+            "nodename": "org.openaq.selenium",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.assertj.core.api.Assertions.assertThat",
+            "nodename": "webmagic-saxon/src/test/java/us/codecraft/webmagic/selector#75-1",
+            "symbolSize": 5,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "scheduler#76",
+            "nodename": "webmagic-samples/src/test/java/us/codecraft/webmagic/samples/scheduler#76-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "src#77",
+            "nodename": "webmagic-samples/src#77-2",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 6,
+            "name": "utils#78",
+            "nodename": "webmagic-extension/src/test/java/us/codecraft/webmagic/utils#78-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "downloader#79",
+            "nodename": "webmagic-selenium/src/test/java/us/codecraft/webmagic/downloader#79-2",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 8,
+            "name": "Pipline",
+            "nodename": "webmagic-extension/src/test/java/us/codecraft/webmagic/model#80-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "Downloder",
+            "nodename": "webmagic-extension/src/main/java/us/codecraft/webmagic/model/formatter#81-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "#Processor",
+            "nodename": "#82-192",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "utils",
+            "nodename": "webmagic-core/src/main/java/us/codecraft/webmagic/utils#83-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "Selector",
+            "nodename": "webmagic-core/src/main/java/us/codecraft/webmagic/selector#84-14",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 12,
+            "target": 11,
+            "value": 0.205204733059562,
+            "sourcename": "selector#84 ",
+            "targetname": "utils#83"
+        },
+        {
+            "source": 8,
+            "target": 10,
+            "value": 9.628354735936435,
+            "sourcename": "model#80 ",
+            "targetname": " #82"
+        },
+        {
+            "source": 6,
+            "target": 10,
+            "value": 0.452114100829744,
+            "sourcename": "utils#78 ",
+            "targetname": " #82"
+        },
+        {
+            "source": 10,
+            "target": 12,
+            "value": 22.38212678583615,
+            "sourcename": " #82 ",
+            "targetname": "selector#84"
+        },
+        {
+            "source": 10,
+            "target": 11,
+            "value": 2.7702638963040864,
+            "sourcename": " #82 ",
+            "targetname": "utils#83"
+        },
+        {
+            "source": 10,
+            "target": 9,
+            "value": 2.9503444889133315,
+            "sourcename": " #82 ",
+            "targetname": "formatter#81"
+        },
+        {
+            "source": 4,
+            "target": 10,
+            "value": 0.8197451223608028,
+            "sourcename": "scheduler#76 ",
+            "targetname": " #82"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}
