@@ -1,0 +1,154 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.amazonaws.services",
+            "nodename": "com.amazonaws.services",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.kohsuke.args4j",
+            "nodename": "org.kohsuke.args4j",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "internal#123",
+            "nodename": "java_src/src/main/java/com/google/crypto/tink/hybrid/internal#123-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "testing#124",
+            "nodename": "testing/java_src/java/com/google/crypto/tink/testing#124-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "hybrid#125",
+            "nodename": "java_src/src/test/java/com/google/crypto/tink/hybrid#125-17",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "prf#126",
+            "nodename": "java_src/src/test/java/com/google/crypto/tink/prf#126-17",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "internal#127",
+            "nodename": "java_src/src/test/java/com/google/crypto/tink/internal#127-18",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "mac#128",
+            "nodename": "java_src/src/test/java/com/google/crypto/tink/mac#128-19",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "tink#129",
+            "nodename": "java_src/src/test/java/com/google/crypto/tink#129-23",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "tink#130",
+            "nodename": "java_src/src/main/java/com/google/crypto/tink#130-717",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "tinkey#131",
+            "nodename": "tools/tinkey/src/main/java/com/google/crypto/tink/tinkey#131-28",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 3,
+            "target": 10,
+            "value": 0.8341566156890998,
+            "sourcename": "internal#123 ",
+            "targetname": "tink#130"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "value": 4.396157424553239,
+            "sourcename": "tink#129 ",
+            "targetname": "tink#130"
+        },
+        {
+            "source": 5,
+            "target": 10,
+            "value": 11.435516800883534,
+            "sourcename": "hybrid#125 ",
+            "targetname": "tink#130"
+        },
+        {
+            "source": 7,
+            "target": 10,
+            "value": 1.472345581346456,
+            "sourcename": "internal#127 ",
+            "targetname": "tink#130"
+        },
+        {
+            "source": 8,
+            "target": 10,
+            "value": 9.497114813265018,
+            "sourcename": "mac#128 ",
+            "targetname": "tink#130"
+        },
+        {
+            "source": 6,
+            "target": 10,
+            "value": 6.60739402080626,
+            "sourcename": "prf#126 ",
+            "targetname": "tink#130"
+        },
+        {
+            "source": 4,
+            "target": 10,
+            "value": 3.278783592638726,
+            "sourcename": "testing#124 ",
+            "targetname": "tink#130"
+        },
+        {
+            "source": 11,
+            "target": 10,
+            "value": 1.7358320359885748,
+            "sourcename": "tinkey#131 ",
+            "targetname": "tink#130"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}
