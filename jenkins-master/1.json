@@ -1,0 +1,175 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.thoughtworks.xstream",
+            "nodename": "com.thoughtworks.xstream",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.apache.commons",
+            "nodename": "org.apache.commons",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.springframework.security",
+            "nodename": "org.springframework.security",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.kohsuke.stapler",
+            "nodename": "org.kohsuke.stapler",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "org.hamcrest.Matchers",
+            "nodename": "org.hamcrest.Matchers",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "org.htmlunit.html",
+            "nodename": "org.htmlunit.html",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "org.jvnet.hudson",
+            "nodename": "org.jvnet.hudson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 7,
+            "name": "src#223",
+            "nodename": "war/src#223-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "websocket#224",
+            "nodename": "websocket#224-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "lazy#225",
+            "nodename": "core/src/main/java/jenkins/model/lazy#225-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "jenkins#226",
+            "nodename": "test/src/test/java/jenkins#226-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "src#227",
+            "nodename": "core/src#227-1632",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "hudson#228",
+            "nodename": "test/src/test/java/hudson#228-13",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "cli#229",
+            "nodename": "cli/src/main/java/hudson/cli#229-16",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "jenkins#230",
+            "nodename": "core/src/main/java/jenkins#230-16",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "java#231",
+            "nodename": "test/src/test/java#231-18",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "src#232",
+            "nodename": "core/src#232-27",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 11,
+            "target": 13,
+            "value": 5.32600825361738,
+            "sourcename": "src#227 ",
+            "targetname": "cli#229"
+        },
+        {
+            "source": 11,
+            "target": 9,
+            "value": 6.165190388997219,
+            "sourcename": "src#227 ",
+            "targetname": "lazy#225"
+        },
+        {
+            "source": 14,
+            "target": 11,
+            "value": 12.069004238882044,
+            "sourcename": "jenkins#230 ",
+            "targetname": "src#227"
+        },
+        {
+            "source": 15,
+            "target": 11,
+            "value": 6.826098036372837,
+            "sourcename": "java#231 ",
+            "targetname": "src#227"
+        },
+        {
+            "source": 12,
+            "target": 11,
+            "value": 2.4092184904801535,
+            "sourcename": "hudson#228 ",
+            "targetname": "src#227"
+        },
+        {
+            "source": 10,
+            "target": 11,
+            "value": 1.2912073901442618,
+            "sourcename": "jenkins#226 ",
+            "targetname": "src#227"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.apache.poi",
+            "nodename": "org.apache.poi",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.springframework",
+            "nodename": "org.springframework",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "lombok",
+            "nodename": "lombok",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "excel#105",
+            "nodename": "easyexcel/src/main/java/com/alibaba/excel#105-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "excel#106",
+            "nodename": "easyexcel-core/src/main/java/com/alibaba/excel#106-18",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "support#107",
+            "nodename": "easyexcel-support/src/main/java/com/alibaba/excel/support#107-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "handlers#108",
+            "nodename": "easyexcel-core/src/main/java/com/alibaba/excel/analysis/v03/handlers#108-22",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "demo#109",
+            "nodename": "src/test/java/com/alibaba/easyexcel/test/demo#109-4",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "excel#110",
+            "nodename": "easyexcel-core/src/main/java/com/alibaba/excel#110-160",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "excel#111",
+            "nodename": "easyexcel-core/src/main/java/com/alibaba/excel#111-118",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "test#112",
+            "nodename": "easyexcel-test/src/test/java/com/alibaba/easyexcel/test#112-205",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 6,
+            "target": 8,
+            "value": 0.9056757368157892,
+            "sourcename": "handlers#108 ",
+            "targetname": "excel#110"
+        },
+        {
+            "source": 6,
+            "target": 9,
+            "value": 0.8300818385142611,
+            "sourcename": "handlers#108 ",
+            "targetname": "excel#111"
+        },
+        {
+            "source": 6,
+            "target": 10,
+            "value": 1.1493225417462483,
+            "sourcename": "handlers#108 ",
+            "targetname": "test#112"
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "value": 10.970813444431222,
+            "sourcename": "excel#111 ",
+            "targetname": "excel#110"
+        },
+        {
+            "source": 10,
+            "target": 8,
+            "value": 6.145554248133697,
+            "sourcename": "test#112 ",
+            "targetname": "excel#110"
+        },
+        {
+            "source": 10,
+            "target": 9,
+            "value": 10.367648623319175,
+            "sourcename": "test#112 ",
+            "targetname": "excel#111"
+        },
+        {
+            "source": 4,
+            "target": 8,
+            "value": 0.8521656890430108,
+            "sourcename": "excel#106",
+            "targetname": "excel#110"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

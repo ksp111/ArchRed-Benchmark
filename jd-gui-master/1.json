@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.antlr.v4",
+            "nodename": "org.antlr.v4",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.jd.core",
+            "nodename": "org.jd.core",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.objectweb.asm",
+            "nodename": "org.objectweb.asm",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "src#66",
+            "nodename": "services/src#66-167",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "sourcesaver#67",
+            "nodename": "services/src/main/java/org/jd/gui/service/sourcesaver#67-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "gui#68",
+            "nodename": "app/src/main/java/org/jd/gui#68-45",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 3,
+            "target": 4,
+            "value": 4.799288150471775,
+            "sourcename": "src#66 ",
+            "targetname": "sourcesaver#67"
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "value": 22.12621315368925,
+            "sourcename": "src#66 ",
+            "targetname": "gui#68"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "value": 0.7978128672788598,
+            "sourcename": "sourcesaver#67 ",
+            "targetname": "gui#68"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

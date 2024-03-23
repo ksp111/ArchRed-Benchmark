@@ -1,0 +1,175 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.springframework.http",
+            "nodename": "springframework",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.junit.Assert",
+            "nodename": "google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "com.fasterxml.jackson",
+            "nodename": "com.fasterxml.jackson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "junit.framework.TestCase",
+            "nodename": "com.fasterxml.jackson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "Json deserializer",
+            "nodename": "src/test/java/com/alibaba/json/demo/hibernate/data#319-11",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "Json serializer",
+            "nodename": "src/test/java/com/alibaba/json/test/a#320-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "basic type benchmark",
+            "nodename": "src/test/java/com/alibaba/json/test/benchmark/basic#321-25",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "writeAsArray",
+            "nodename": "src/test/java/com/alibaba/json/bvt/writeAsArray#322-30",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "ParserConfig",
+            "nodename": "src/test/java/com/alibaba/json/bvt/jdk8#323-31",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "JsonException",
+            "nodename": "src/test/java/com/alibaba/json/bvt/issue_2200#324-35",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "Decode benchmark",
+            "nodename": "src/test/java/com/alibaba/json/test/benchmark#325-44",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "Derbysoft spitfire fastjson",
+            "nodename": "src/test/java/com/derbysoft/spitfire/fastjson/dto#326-50",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "DeFaultJsonParser",
+            "nodename": "src/test/java/com/alibaba/json/bvt#327-2673",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "LargeJavaBean",
+            "nodename": "src/test/java/com/alibaba/fastjson/deserializer/issues3796/bean#328-206",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 9,
+            "target": 12,
+            "value": 2.824541867395103,
+            "sourcename": "issue_2200#324 ",
+            "targetname": "bvt#327"
+        },
+        {
+            "source": 8,
+            "target": 12,
+            "value": 2.180202313108735,
+            "sourcename": "jdk8#323 ",
+            "targetname": "bvt#327"
+        },
+        {
+            "source": 7,
+            "target": 12,
+            "value": 10.435688965151934,
+            "sourcename": "writeAsArray#322 ",
+            "targetname": "bvt#327"
+        },
+        {
+            "source": 7,
+            "target": 10,
+            "value": 0.07786436832531196,
+            "sourcename": "writeAsArray#322 ",
+            "targetname": "benchmark#325"
+        },
+        {
+            "source": 4,
+            "target": 12,
+            "value": 0.15572873665062392,
+            "sourcename": "data#319 ",
+            "targetname": "bvt#327"
+        },
+        {
+            "source": 5,
+            "target": 12,
+            "value": 4.08459731357576,
+            "sourcename": "a#320 ",
+            "targetname": "bvt#327"
+        },
+        {
+            "source": 10,
+            "target": 12,
+            "value": 18.7865910462223,
+            "sourcename": "benchmark#325 ",
+            "targetname": "bvt#327"
+        },
+        {
+            "source": 6,
+            "target": 12,
+            "value": 0.5450505782771837,
+            "sourcename": "basic#321 ",
+            "targetname": "bvt#327"
+        },
+        {
+            "source": 11,
+            "target": 12,
+            "value": 0.6761417063171171,
+            "sourcename": "dto#326 ",
+            "targetname": "bvt#327"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

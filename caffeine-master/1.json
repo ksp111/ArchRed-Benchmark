@@ -1,0 +1,203 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.google.common",
+            "nodename": "org.google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.mockito.Mockito",
+            "nodename": "org.mockito.Mockito",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.eclipse.collections.impl",
+            "nodename": "org.eclipse.collections.impl",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.testng",
+            "nodename": "org.testng",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "src#167",
+            "nodename": "caffeine/src#167-47",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "java#168",
+            "nodename": "guava/src/main/java#168-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "jsr166#169",
+            "nodename": "caffeine/src/test/java/com/github/benmanes/caffeine/jsr166#169-11",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "guava#170",
+            "nodename": "guava/src/test/java/com/github/benmanes/caffeine/guava#170-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "jcache#171",
+            "nodename": "jcache/src/test/java/com/github/benmanes/caffeine/jcache#171-35",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "jcache#172",
+            "nodename": "jcache/src/test/java/com/github/benmanes/caffeine/jcache#172-13",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "configuration#173",
+            "nodename": "jcache/src/main/java/com/github/benmanes/caffeine/jcache/configuration#173-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "src#174",
+            "nodename": "caffeine/src#174-37",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "eclipse#175",
+            "nodename": "caffeine/src/test/java/com/github/benmanes/caffeine/eclipse#175-30",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "event#176",
+            "nodename": "jcache/src/test/java/com/github/benmanes/caffeine/jcache/event#176-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "examples#177",
+            "nodename": "examples#177-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "simulator#178",
+            "nodename": "simulator/src/main/java/com/github/benmanes/caffeine/cache/simulator#178-150",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "src#179",
+            "nodename": "caffeine/src#179-202",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 17,
+            "name": "simulator#180",
+            "nodename": "simulator/src/main/java/com/github/benmanes/caffeine/cache/simulator#180-45",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 11,
+            "target": 16,
+            "value": 0.7871363358472981,
+            "sourcename": "src#174 ",
+            "targetname": "src#179"
+        },
+        {
+            "source": 12,
+            "target": 16,
+            "value": 10.627451134995818,
+            "sourcename": "eclipse#175 ",
+            "targetname": "src#179"
+        },
+        {
+            "source": 6,
+            "target": 16,
+            "value": 1.5201392837959746,
+            "sourcename": "jsr166#169 ",
+            "targetname": "src#179"
+        },
+        {
+            "source": 16,
+            "target": 10,
+            "value": 1.4261781073319477,
+            "sourcename": "src#179 ",
+            "targetname": "configuration#173"
+        },
+        {
+            "source": 7,
+            "target": 16,
+            "value": 0.4986685287584134,
+            "sourcename": "guava#170 ",
+            "targetname": "src#179"
+        },
+        {
+            "source": 9,
+            "target": 16,
+            "value": 12.981051318999818,
+            "sourcename": "jcache#172 ",
+            "targetname": "src#179"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "value": 10.301088754428703,
+            "sourcename": "jcache#172 ",
+            "targetname": "configuration#173"
+        },
+        {
+            "source": 13,
+            "target": 16,
+            "value": 0.868215982385771,
+            "sourcename": "event#176 ",
+            "targetname": "src#179"
+        },
+        {
+            "source": 15,
+            "target": 16,
+            "value": 0.9900705534562577,
+            "sourcename": "simulator#178 ",
+            "targetname": "src#179"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

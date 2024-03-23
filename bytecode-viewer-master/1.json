@@ -1,0 +1,99 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.objectweb.asm",
+            "nodename": "org.objectweb.asm",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.exbin.binded",
+            "nodename": "org.exbin.binded",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "com.github.weisj.darklaf",
+            "nodename": "com.github.weisj.darklaf",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "bytecodeviewer#73",
+            "nodename": "src/main/java/the/bytecode/club/bytecodeviewer#73-143",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "bootloader#74",
+            "nodename": "src/main/java/the/bytecode/club/bytecodeviewer/bootloader#74-21",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "main#75",
+            "nodename": "src/main#75-101",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "bytecodeviewer#76",
+            "nodename": "src/main/java/the/bytecode/club/bytecodeviewer#76-21",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+
+        {
+            "source": 5,
+            "target": 4,
+            "value": 0.7158331666336847,
+            "sourcename": "main#75 ",
+            "targetname": "bootloader#74"
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "value": 1.1348944294614598,
+            "sourcename": "main#75 ",
+            "targetname": "bytecodeviewer#76"
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "value": 18.95041928317111,
+            "sourcename": "bytecodeviewer#73 ",
+            "targetname": "main#75"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "value": 0.5695526590320912,
+            "sourcename": "bytecodeviewer#73 ",
+            "targetname": "bootloader#74"
+        },
+        {
+            "source": 3,
+            "target": 6,
+            "value": 0.2189679969244944,
+            "sourcename": "bytecodeviewer#73 ",
+            "targetname": "bytecodeviewer#76"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

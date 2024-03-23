@@ -1,0 +1,175 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.apache.lucene",
+            "nodename": "org.apache.lucene",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.joda.time",
+            "nodename": "org.joda.time",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "coref#385",
+            "nodename": "itest/src/edu/stanford/nlp/coref#385-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "statistical#386",
+            "nodename": "src/edu/stanford/nlp/coref/statistical#386-23",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "loglinear#387",
+            "nodename": "src/edu/stanford/nlp/loglinear#387-30",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "util#388",
+            "nodename": "test/src/edu/stanford/nlp/util#388-35",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "scenegraph#389",
+            "nodename": "src/edu/stanford/nlp/scenegraph#389-36",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "maxent#390",
+            "nodename": "src/edu/stanford/nlp/tagger/maxent#390-37",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "dcoref#391",
+            "nodename": "src/edu/stanford/nlp/dcoref#391-41",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "nlp#392",
+            "nodename": "src/edu/stanford/nlp#392-1895",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "pipeline#393",
+            "nodename": "itest/src/edu/stanford/nlp/pipeline#393-55",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 3,
+            "target": 10,
+            "value": 0.18602523513893077,
+            "sourcename": "coref#385 ",
+            "targetname": "nlp#392"
+        },
+        {
+            "source": 11,
+            "target": 10,
+            "value": 9.10591285316958,
+            "sourcename": "pipeline#393 ",
+            "targetname": "nlp#392"
+        },
+        {
+            "source": 11,
+            "target": 8,
+            "value": 0.07277961213172025,
+            "sourcename": "pipeline#393 ",
+            "targetname": "maxent#390"
+        },
+        {
+            "source": 4,
+            "target": 10,
+            "value": 5.753940833432463,
+            "sourcename": "statistical#386 ",
+            "targetname": "nlp#392"
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "value": 7.243525710046805,
+            "sourcename": "dcoref#391 ",
+            "targetname": "nlp#392"
+        },
+        {
+            "source": 10,
+            "target": 8,
+            "value": 2.1187645128039114,
+            "sourcename": "nlp#392 ",
+            "targetname": "maxent#390"
+        },
+        {
+            "source": 7,
+            "target": 9,
+            "value": 0.051296504670825666,
+            "sourcename": "scenegraph#389 ",
+            "targetname": "dcoref#391"
+        },
+        {
+            "source": 7,
+            "target": 10,
+            "value": 11.150928450355206,
+            "sourcename": "scenegraph#389 ",
+            "targetname": "nlp#392"
+        },
+        {
+            "source": 8,
+            "target": 10,
+            "value": 2.2533509320071596,
+            "sourcename": "maxent#390 ",
+            "targetname": "nlp#392"
+        },
+        {
+            "source": 5,
+            "target": 10,
+            "value": 0.10435648602275796,
+            "sourcename": "loglinear#387 ",
+            "targetname": "nlp#392"
+        },
+        {
+            "source": 6,
+            "target": 10,
+            "value": 0.14672038622170186,
+            "sourcename": "util#388 ",
+            "targetname": "nlp#392"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

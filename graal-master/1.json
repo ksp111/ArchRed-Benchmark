@@ -1,0 +1,182 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.netbeans.api",
+            "nodename": "org.netbeans.api",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "jdk.vm.ci",
+            "nodename": "jdk.vm.ci",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.objectweb.asm",
+            "nodename": "org.objectweb.asm",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.openide.util",
+            "nodename": "org.openide.util",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "java#1279",
+            "nodename": "vm/benchmarks/interpreter/java#1279-4",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "src#1280",
+            "nodename": "tools/src#1280-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "collection#1281",
+            "nodename": "truffle/src/com.oracle.truffle.runtime/src/com/oracle/truffle/runtime/collection#1281-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "shootouts#1282",
+            "nodename": "java-benchmarks/java/org.graalvm.bench.shootouts/src/bench/shootouts#1282-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "impl#1283",
+            "nodename": "truffle/src/com.oracle.truffle.runtime/src/com/oracle/truffle/runtime/jfr/impl#1283-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "test#1284",
+            "nodename": "substratevm/src/com.oracle.svm.test/src/com/oracle/svm/test#1284-22",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "poolparsers#1285",
+            "nodename": "substratevm/src/com.oracle.svm.test/src/com/oracle/svm/test/jfr/utils/poolparsers#1285-23",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "src#1286",
+            "nodename": "sdk/src#1286-30",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "IdealGraphVisualizer#1287",
+            "nodename": "visualizer/IdealGraphVisualizer#1287-30",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "sulong#1288",
+            "nodename": "sulong#1288-43",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "src#1289",
+            "nodename": "substratevm/src#1289-47",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "src#1290",
+            "nodename": "espresso/src#1290-51",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "src#1291",
+            "nodename": "compiler/src#1291-64",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 17,
+            "name": "processor#1292",
+            "nodename": "truffle/src/com.oracle.truffle.dsl.processor/src/com/oracle/truffle/dsl/processor#1292-127",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 18,
+            "name": "#1293",
+            "nodename": "#1293-11392",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 9,
+            "target": 18,
+            "value": 11.528663184119344,
+            "sourcename": "test#1284 ",
+            "targetname": " #1293"
+        },
+        {
+            "source": 10,
+            "target": 18,
+            "value": 2.3363323726699066,
+            "sourcename": "poolparsers#1285 ",
+            "targetname": " #1293"
+        },
+        {
+            "source": 8,
+            "target": 18,
+            "value": 7.533924483200516,
+            "sourcename": "impl#1283 ",
+            "targetname": " #1293"
+        },
+        {
+            "source": 18,
+            "target": 10,
+            "value": 1.9475147938557005,
+            "sourcename": " #1293 ",
+            "targetname": "poolparsers#1285"
+        },
+        {
+            "source": 18,
+            "target": 8,
+            "value": 16.653565166154532,
+            "sourcename": " #1293 ",
+            "targetname": "impl#1283"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

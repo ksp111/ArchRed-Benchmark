@@ -1,0 +1,175 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.fasterxml.jackson",
+            "nodename": "com.fasterxml.jackson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.wikidata.wdtk",
+            "nodename": "org.wikidata.wdtk",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.sweble.wikitext.parser",
+            "nodename": "org.sweble.wikitext.parser",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "com.google.api",
+            "nodename": "com.google.api",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "org.apache.commons",
+            "nodename": "org.apache.commons",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "org.apache.hc",
+            "nodename": "org.apache.hc",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "org.apache.poi",
+            "nodename": "org.apache.poi",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 7,
+            "name": "extensions#146",
+            "nodename": "extensions#146-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "browsing#147",
+            "nodename": "main/tests/server/src/com/google/refine/commands/browsing#147-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "knn#148",
+            "nodename": "main/src/com/google/refine/clustering/knn#148-3",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "gdata#149",
+            "nodename": "extensions/gdata/tests/src/com/google/refine/extension/gdata#149-3",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "refine#150",
+            "nodename": "server/src/com/google/refine#150-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "functions#151",
+            "nodename": "main/tests/server/src/com/google/refine/expr/functions#151-13",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "binning#152",
+            "nodename": "main/src/com/google/refine/clustering/binning#152-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "entityvalues#153",
+            "nodename": "extensions/wikibase/src/org/openrefine/wikibase/schema/entityvalues#153-16",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "commands#154",
+            "nodename": "main/tests/server/src/com/google/refine/commands#154-30",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "main#155",
+            "nodename": "main#155-964",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 10,
+            "target": 16,
+            "value": 0.35576702656040393,
+            "sourcename": "gdata#149 ",
+            "targetname": " main#155"
+        },
+        {
+            "source": 8,
+            "target": 16,
+            "value": 0.8420336992679909,
+            "sourcename": "browsing#147 ",
+            "targetname": " main#155"
+        },
+        {
+            "source": 16,
+            "target": 14,
+            "value": 10.601783503799261,
+            "sourcename": " main#155 ",
+            "targetname": "entityvalues#153"
+        },
+        {
+            "source": 16,
+            "target": 13,
+            "value": 8.893299373900291,
+            "sourcename": " main#155 ",
+            "targetname": "binning#152"
+        },
+        {
+            "source": 16,
+            "target": 9,
+            "value": 2.7011924219039525,
+            "sourcename": " main#155 ",
+            "targetname": "knn#148"
+        },
+        {
+            "source": 16,
+            "target": 15,
+            "value": 9.949207555817102,
+            "sourcename": " main#155 ",
+            "targetname": "commands#154"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}
