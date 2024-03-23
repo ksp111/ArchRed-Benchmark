@@ -1,0 +1,190 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "apache.rocketmq.v2",
+            "nodename": "apache.rocketmq.v2",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.google.common",
+            "nodename": "com.google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "io.grpc",
+            "nodename": "io.grpc",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "io.netty",
+            "nodename": "io.netty",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "io.openmessaging",
+            "nodename": "io.openmessaging",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "io.opentelemetry",
+            "nodename": "io.opentelemetry",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "org.apache.commons",
+            "nodename": "org.apache.commons",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 7,
+            "name": "org.rocksdb",
+            "nodename": "org.rocksdb",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 8,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 9,
+            "name": "org.mockito",
+            "nodename": "org.mockito",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 10,
+            "name": "srvutil#411",
+            "nodename": "srvutil/src/test/java/org/apache/rocketmq/srvutil#411-1",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 11,
+            "name": "constant#412",
+            "nodename": "common/src/main/java/org/apache/rocketmq/common/constant#412-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "src#413",
+            "nodename": "test/src#413-6",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 13,
+            "name": "interceptor#414",
+            "nodename": "proxy/src/main/java/org/apache/rocketmq/proxy/grpc/interceptor#414-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "src#415",
+            "nodename": "remoting/src#415-7",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 15,
+            "name": "statistics#416",
+            "nodename": "common/src/main/java/org/apache/rocketmq/common/statistics#416-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "compression#417",
+            "nodename": "common/src/main/java/org/apache/rocketmq/common/compression#417-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 17,
+            "name": "#418",
+            "nodename": "#418-1722",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 18,
+            "name": "src#419",
+            "nodename": "common/src#419-19",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 19,
+            "name": "expression#420",
+            "nodename": "filter/src/main/java/org/apache/rocketmq/filter/expression#420-25",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+
+        {
+            "source": 17,
+            "target": 16,
+            "value": 6.647658656637184,
+            "sourcename": " #418 ",
+            "targetname": "compression#417"
+        },
+        {
+            "source": 17,
+            "target": 11,
+            "value": 3.1989244044835905,
+            "sourcename": " #418 ",
+            "targetname": "constant#412"
+        },
+        {
+            "source": 17,
+            "target": 15,
+            "value": 14.531215039878251,
+            "sourcename": " #418 ",
+            "targetname": "statistics#416"
+        },
+        {
+            "source": 17,
+            "target": 19,
+            "value": 8.464316005222093,
+            "sourcename": " #418 ",
+            "targetname": "expression#420"
+        },
+        {
+            "source": 13,
+            "target": 17,
+            "value": 1.7199015233719668,
+            "sourcename": "interceptor#414 ",
+            "targetname": " #418"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

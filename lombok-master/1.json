@@ -1,0 +1,120 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.sun.tools.javac",
+            "nodename": "com.sun.tools.javac",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.eclipse.jdt",
+            "nodename": "org.eclipse.jdt",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "software.amazon.awssdk",
+            "nodename": "software.amazon.awssdk",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "src#155",
+            "nodename": "src#155-56",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "resource#156",
+            "nodename": "test/transform/resource#156-1283",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "disableCheckedExceptions#157",
+            "nodename": "experimental/src/lombok/javac/disableCheckedExceptions#157-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "javac#158",
+            "nodename": "src/utils/lombok/javac#158-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "shared#159",
+            "nodename": "docker/shared#159-4",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "src#160",
+            "nodename": "src#160-355",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "eclipse#161",
+            "nodename": "test/eclipse/src/lombok/eclipse#161-11",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 6,
+            "target": 8,
+            "value": 40.0,
+            "sourcename": "javac#158 ",
+            "targetname": " src#160"
+        },
+        {
+            "source": 5,
+            "target": 8,
+            "value": 4.0,
+            "sourcename": "javac#158 ",
+            "targetname": " src#160"
+        }
+        ,
+        {
+            "source": 9,
+            "target": 8,
+            "value": 3.0,
+            "sourcename": "javac#158 ",
+            "targetname": " src#160"
+        },
+        {
+            "source": 9,
+            "target": 5,
+            "value": 3.0,
+            "sourcename": "javac#158 ",
+            "targetname": " src#160"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "value": 3.0,
+            "sourcename": "javac#158 ",
+            "targetname": " src#160"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

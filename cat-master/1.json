@@ -1,0 +1,196 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.alibaba.dubbo",
+            "nodename": "com.alibaba.dubbo",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "io.netty",
+            "nodename": "io.netty",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.unidal",
+            "nodename": "org.unidal",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.elasticsearch",
+            "nodename": "org.elasticsearch",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "build#549",
+            "nodename": "cat-alarm/src/main/java/com/dianping/cat/build#549-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "cross#550",
+            "nodename": "cat-home/src/test/java/com/dianping/cat/report/page/cross#550-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "catmonitor#551",
+            "nodename": "integration/apache-dubbo/src/main/java/net/dubboclub/catmonitor#551-3",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "matrix#552",
+            "nodename": "cat-consumer/src/test/java/com/dianping/cat/consumer/matrix#552-3",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "#553",
+            "nodename": "#553-1193",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "jetty#554",
+            "nodename": "integration/elasticsearch-jetty/src/main/java/com/smzdm/elasticsearch/http/jetty#554-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "src#555",
+            "nodename": "cat-client/src#555-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "plugin#556",
+            "nodename": "cat-home/src/main/java/com/dianping/cat/system/page/plugin#556-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "config#557",
+            "nodename": "cat-core/src/main/java/com/dianping/cat/config#557-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "consumer#558",
+            "nodename": "cat-consumer/src/test/java/com/dianping/cat/consumer#558-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "src#559",
+            "nodename": "cat-core/src#559-17",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "page#560",
+            "nodename": "cat-home/src/main/java/com/dianping/cat/report/page#560-21",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "integration#561",
+            "nodename": "integration#561-22",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 17,
+            "name": "src#562",
+            "nodename": "cat-home/src#562-25",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 18,
+            "name": "cat#563",
+            "nodename": "lib/java/src/main/java/com/dianping/cat#563-37",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 13,
+            "target": 8,
+            "value": 4.855107595569783,
+            "sourcename": "consumer#558 ",
+            "targetname": " #553"
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 8.323753205205653,
+            "sourcename": "matrix#552 ",
+            "targetname": " #553"
+        },
+        {
+            "source": 8,
+            "target": 15,
+            "value": 2.681423622863366,
+            "sourcename": " #553 ",
+            "targetname": "page#560"
+        },
+        {
+            "source": 11,
+            "target": 8,
+            "value": 1.9092597546589194,
+            "sourcename": "plugin#556 ",
+            "targetname": " #553"
+        },
+        {
+            "source": 5,
+            "target": 8,
+            "value": 8.533895076560764,
+            "sourcename": "cross#550 ",
+            "targetname": " #553"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "value": 8.116127113599166,
+            "sourcename": "catmonitor#551 ",
+            "targetname": " #553"
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "value": 5.5804336315423475,
+            "sourcename": "jetty#554 ",
+            "targetname": " #553"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

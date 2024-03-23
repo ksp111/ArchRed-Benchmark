@@ -1,0 +1,120 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.google.common",
+            "nodename": "com.google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "jakarta",
+            "nodename": "jakarta",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.objectweb.asm",
+            "nodename": "org.objectweb.asm",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "tools#84",
+            "nodename": "tools#84-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "servlet#85",
+            "nodename": "extensions/servlet/src/com/google/inject/servlet#85-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "extensions#87",
+            "nodename": "extensions#87-13",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "internal#88",
+            "nodename": "core/src/com/google/inject/internal#88-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "core#89",
+            "nodename": "core#89-537",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "aop#90",
+            "nodename": "core/src/com/google/inject/internal/aop#90-18",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "demo#91",
+            "nodename": "extensions/grapher/test/com/google/inject/grapher/demo#91-18",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+
+        {
+            "source": 8,
+            "target": 6,
+            "value": 0.8076671283095147,
+            "sourcename": "aop#90 ",
+            "targetname": "internal#88"
+        },
+        {
+            "source": 9,
+            "target": 7,
+            "value": 5.119430785124168,
+            "sourcename": "demo#91 ",
+            "targetname": " core#89"
+        },
+        {
+            "source": 7,
+            "target": 6,
+            "value": 11.849469316554817,
+            "sourcename": " core#89 ",
+            "targetname": "internal#88"
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 1.6302043148374168,
+            "sourcename": " core#89 ",
+            "targetname": "aop#90"
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "value": 6.02995110529552,
+            "sourcename": "servlet#85 ",
+            "targetname": " core#89"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

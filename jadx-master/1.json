@@ -1,0 +1,140 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.android.aapt",
+            "nodename": "com.android.aapt",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.google.gson",
+            "nodename": "com.google.gson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "io.github.skylot",
+            "nodename": "io.github.skylot",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.fife.ui",
+            "nodename": "org.fife.ui",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "net.fabricmc.mappingio",
+            "nodename": "net.fabricmc.mappingio",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "jadx#261",
+            "nodename": "jadx-core/src/test/java/jadx#261-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "entry#262",
+            "nodename": "jadx-core/src/main/java/jadx/core/xmlgen/entry#262-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "gui#263",
+            "nodename": "jadx-gui/src/main/java/jadx/gui#263-373",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "integration#264",
+            "nodename": "jadx-core/src/test/java/jadx/tests/integration#264-545",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "src#265",
+            "nodename": "jadx-core/src#265-575",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 5,
+            "target": 6,
+            "value": 0.5738223409142116,
+            "sourcename": "jadx#261 ",
+            "targetname": "entry#262"
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "value": 0.33025606473071295,
+            "sourcename": "jadx#261 ",
+            "targetname": "gui#263"
+        },
+        {
+            "source": 8,
+            "target": 6,
+            "value": 0.0022786618092368103,
+            "sourcename": "integration#264 ",
+            "targetname": "entry#262"
+        },
+        {
+            "source": 8,
+            "target": 7,
+            "value": 2.380651143210302,
+            "sourcename": "integration#264 ",
+            "targetname": "gui#263"
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "value": 20.701806499984208,
+            "sourcename": "integration#264 ",
+            "targetname": "src#265"
+        },
+        {
+            "source": 7,
+            "target": 6,
+            "value": 0.6928467831658874,
+            "sourcename": "gui#263 ",
+            "targetname": "entry#262"
+        },
+        {
+            "source": 7,
+            "target": 9,
+            "value": 11.548455420821298,
+            "sourcename": "gui#263 ",
+            "targetname": "src#265"
+        },
+        {
+            "source": 9,
+            "target": 6,
+            "value": 0.5210748019491703,
+            "sourcename": "src#265 ",
+            "targetname": "entry#262"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

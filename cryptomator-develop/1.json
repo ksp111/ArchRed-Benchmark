@@ -1,0 +1,105 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "ch.qos.logback",
+            "nodename": "ch.qos.logback",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "javafx.beans",
+            "nodename": "javafx.beans",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "javafx.scene",
+            "nodename": "javafx.scene",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.junit.jupiter",
+            "nodename": "org.junit.jupiter",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "com.fasterxml.jackson",
+            "nodename": "com.fasterxml.jackson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "com.google.common",
+            "nodename": "com.google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "src#72",
+            "nodename": "src#72-38",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "cryptomator#73",
+            "nodename": "src/main/java/org/cryptomator#73-22",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "ui#74",
+            "nodename": "src/main/java/org/cryptomator/ui#74-176",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "src#75",
+            "nodename": "src#75-116",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 7,
+            "target": 9,
+            "value": 1.3361755598753133,
+            "sourcename": "cryptomator#73 ",
+            "targetname": " src#75"
+        },
+        {
+            "source": 8,
+            "target": 7,
+            "value": 0.16795369862218731,
+            "sourcename": "ui#74 ",
+            "targetname": "cryptomator#73"
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "value": 25.938167039510116,
+            "sourcename": "ui#74 ",
+            "targetname": " src#75"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

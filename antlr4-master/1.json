@@ -1,0 +1,138 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.antlr.runtime",
+            "nodename": "org.antlr.runtime",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.junit.jupiter",
+            "nodename": "org.junit.jupiter",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.stringtemplate.v4",
+            "nodename": "org.stringtemplate.v4",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "atn#64",
+            "nodename": "runtime/Java/src/org/antlr/v4/runtime/atn#64-78",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "v4#65",
+            "nodename": "tool/src/org/antlr/v4#65-124",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "model#66",
+            "nodename": "tool/src/org/antlr/v4/codegen/model#66-129",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "antlr4#67",
+            "nodename": "antlr4-maven-plugin/src/test/java/org/antlr/mojo/antlr4#67-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "runtime#68",
+            "nodename": "runtime/Java/src/org/antlr/v4/runtime#68-178",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "runtime#69",
+            "nodename": "runtime-testsuite/test/org/antlr/v4/test/runtime#69-11",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 8,
+            "target": 7,
+            "value": 0.09756833374665422,
+            "sourcename": "runtime#69 ",
+            "targetname": "runtime#68"
+        },
+        {
+            "source": 8,
+            "target": 4,
+            "value": 0.6125437323742333,
+            "sourcename": "runtime#69 ",
+            "targetname": "v4#65"
+        },
+
+
+        {
+            "source": 7,
+            "target": 3,
+            "value": 10.693073260007074,
+            "sourcename": "runtime#68 ",
+            "targetname": "atn#64"
+        },
+        {
+            "source": 7,
+            "target": 4,
+            "value": 16.539200008951287,
+            "sourcename": "runtime#68 ",
+            "targetname": "v4#65"
+        },
+
+        {
+            "source": 4,
+            "target": 3,
+            "value": 4.33248458610082,
+            "sourcename": "v4#65 ",
+            "targetname": "atn#64"
+        },
+
+
+        {
+            "source": 5,
+            "target": 3,
+            "value": 1.0000902463009496,
+            "sourcename": "model#66 ",
+            "targetname": "atn#64"
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "value": 0.17236103064938113,
+            "sourcename": "model#66 ",
+            "targetname": "runtime#68"
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "value": 3.00886376261332,
+            "sourcename": "model#66 ",
+            "targetname": "v4#65"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

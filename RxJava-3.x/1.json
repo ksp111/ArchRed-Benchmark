@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.mockito",
+            "nodename": "org.mockito",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.openjdk.jmh",
+            "nodename": "org.openjdk.jmh",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.reactivestreams",
+            "nodename": "org.reactivestreams",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "rxjava3#43",
+            "nodename": "src/main/java/io/reactivex/rxjava3#43-23",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 5,
+            "name": "core#44",
+            "nodename": "src/jmh/java/io/reactivex/rxjava3/core#44-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "util#45",
+            "nodename": "src/main/java/io/reactivex/rxjava3/internal/util#45-26",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "operators#46",
+            "nodename": "src/test/java/io/reactivex/rxjava3/internal/operators#46-37",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "src#47",
+            "nodename": "src#47-1759",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "validators#48",
+            "nodename": "src/test/java/io/reactivex/rxjava3/validators#48-23",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "fuseable#49",
+            "nodename": "src/test/java/io/reactivex/rxjava3/internal/fuseable#49-1",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 8,
+            "target": 5,
+            "value": 1.5437984262731563,
+            "sourcename": "src#47 ",
+            "targetname": "core#44"
+        },
+        {
+            "source": 8,
+            "target": 6,
+            "value": 16.76775919896616,
+            "sourcename": " src#47 ",
+            "targetname": "util#45"
+        },
+        {
+            "source": 8,
+            "target": 7,
+            "value": 14.096653749128972,
+            "sourcename": " src#47 ",
+            "targetname": "operators#46"
+        },
+        {
+            "source": 10,
+            "target": 8,
+            "value": 0.008906939283370885,
+            "sourcename": "fuseable#49 ",
+            "targetname": " src#47"
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "value": 0.14429241639060836,
+            "sourcename": "validators#48 ",
+            "targetname": " src#47"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

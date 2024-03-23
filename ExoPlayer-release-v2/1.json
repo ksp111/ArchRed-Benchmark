@@ -1,0 +1,175 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "android",
+            "nodename": "android",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "androidx",
+            "nodename": "androidx",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "com.google",
+            "nodename": "com.google",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "okhttp3",
+            "nodename": "okhttp3",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "org.mockito",
+            "nodename": "org.mockito",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "org.robolectric",
+            "nodename": "org.robolectric",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "castdemo#284",
+            "nodename": "demos/cast/src/main/java/com/google/android/exoplayer2/castdemo#284-3",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "gts#285",
+            "nodename": "playbacktests/src/androidTest/java/com/google/android/exoplayer2/playbacktests/gts#285-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "library#286",
+            "nodename": "library#286-1498",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "muxer#287",
+            "nodename": "library/muxer/src/main/java/com/google/android/exoplayer2/muxer#287-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "extensions#288",
+            "nodename": "extensions#288-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "testutil#289",
+            "nodename": "testutils/src/test/java/com/google/android/exoplayer2/testutil#289-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "cache#290",
+            "nodename": "library/datasource/src/test/java/com/google/android/exoplayer2/upstream/cache#290-11",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "rtsp#291",
+            "nodename": "library/rtsp/src/test/java/com/google/android/exoplayer2/source/rtsp#291-16",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "util#292",
+            "nodename": "library/common/src/test/java/com/google/android/exoplayer2/util#292-19",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "library#293",
+            "nodename": "library#293-52",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 14,
+            "target": 8,
+            "value": 1.0821808413996654,
+            "sourcename": "util#292 ",
+            "targetname": " library#286"
+        },
+        {
+            "source": 12,
+            "target": 8,
+            "value": 12.462852222196016,
+            "sourcename": "cache#290 ",
+            "targetname": " library#286"
+        },
+        {
+            "source": 13,
+            "target": 8,
+            "value": 1.4673546683760097,
+            "sourcename": "rtsp#291 ",
+            "targetname": " library#286"
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "value": 2.449535922567618,
+            "sourcename": " library#286 ",
+            "targetname": "muxer#287"
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 10.541925451458841,
+            "sourcename": "gts#285 ",
+            "targetname": " library#286"
+        },
+        {
+            "source": 11,
+            "target": 8,
+            "value": 10.08989758083507,
+            "sourcename": "testutil#289 ",
+            "targetname": " library#286"
+        },
+        {
+            "source": 7,
+            "target": 15,
+            "value": 0.9056757368157892,
+            "sourcename": "gts#285",
+            "targetname": "library#293"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

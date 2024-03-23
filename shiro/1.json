@@ -1,0 +1,147 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.junit.jupiter",
+            "nodename": "",
+            "symbolSize": 20,
+            "category": "external"
+        },
+                {
+            "id": 1,
+            "name": "org.slf4j.Logger",
+            "nodename": "",
+            "symbolSize": 20,
+            "category": "external"
+        },
+                {
+            "id": 2,
+            "name": "com.google.inject",
+            "nodename": "",
+            "symbolSize": 20,
+            "category": "external"
+        },
+                {
+            "id": 3,
+            "name": "org.easymock.EasyMock",
+            "nodename": "",
+            "symbolSize": 20,
+            "category": "external"
+        },
+                {
+            "id": 4,
+            "name": "org.springframework.context",
+            "nodename": "",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "util#337",
+            "nodename": "lang/src/test/java/org/apache/shiro/lang/util#337-1",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 6,
+            "name": "hasher#338",
+            "nodename": "tools/hasher/src/test/java/org/apache/shiro/tools/hasher#338-1",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 7,
+            "name": "permission#339",
+            "nodename": "core/src/test/java/org/apache/shiro/authz/permission#339-6",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 8,
+            "name": "servlets#340",
+            "nodename": "integration-tests/jakarta-ee/src/main/java/org/apache/shiro/testing/jakarta/ee/servlets#340-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "ee#341",
+            "nodename": "integration-tests/jakarta-ee/src/test/java/org/apache/shiro/testing/jakarta/ee#341-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "samples#342",
+            "nodename": "samples/spring-boot-web/src/main/java/org/apache/shiro/samples#342-8",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 11,
+            "name": "bank#343",
+            "nodename": "samples/aspectj/src/main/java/org/apache/shiro/samples/aspectj/bank#343-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "tags#344",
+            "nodename": "web/src/main/java/org/apache/shiro/web/tags#344-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "app#345",
+            "nodename": "integration-tests/jaxrs/app/src/main/java/org/apache/shiro/testing/jaxrs/app#345-16",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 14,
+            "name": "#346",
+            "nodename": "#346-767",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 8,
+            "target": 14,
+            "value": 1.260503394588658,
+            "sourcename": "servlets#340 ",
+            "targetname": " #346"
+        },
+        {
+            "source": 9,
+            "target": 14,
+            "value": 15.814076992219874,
+            "sourcename": "ee#341 ",
+            "targetname": " #346"
+        },
+        {
+            "source": 11,
+            "target": 14,
+            "value": 10.822232253479191,
+            "sourcename": "bank#343 ",
+            "targetname": " #346"
+        },
+        {
+            "source": 12,
+            "target": 14,
+            "value": 12.103187359712276,
+            "sourcename": "tags#344 ",
+            "targetname": " #346"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "io.netty",
+            "nodename": "io.netty",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.fasterxml.jackson",
+            "nodename": "com.fasterxml.jackson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.openjdk.jmh",
+            "nodename": "org.openjdk.jmh",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "logging#156",
+            "nodename": "src/test/java/io/vertx/core/impl/logging#156-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "file#157",
+            "nodename": "src/main/generated/io/vertx/core/file#157-3",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "http#158",
+            "nodename": "src/main/generated/io/vertx/core/http#158-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "test#159",
+            "nodename": "src/test#159-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "selector#160",
+            "nodename": "src/main/java/io/vertx/core/spi/cluster/impl/selector#160-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "benchmarks#161",
+            "nodename": "src/test/benchmarks/io/vertx/benchmarks#161-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "net#162",
+            "nodename": "src/main/generated/io/vertx/core/net#162-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "src#163",
+            "nodename": "src#163-18",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "src#164",
+            "nodename": "src#164-733",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "src#165",
+            "nodename": "src#165-28",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 5,
+            "target": 12,
+            "value": 0.37300875293869246,
+            "sourcename": "file#157 ",
+            "targetname": " src#164"
+        },
+        {
+            "source": 6,
+            "target": 12,
+            "value": 2.392710135766966,
+            "sourcename": "http#158 ",
+            "targetname": " src#164"
+        },
+        {
+            "source": 10,
+            "target": 12,
+            "value": 8.513982409741566,
+            "sourcename": "net#162 ",
+            "targetname": " src#164"
+        },
+        {
+            "source": 7,
+            "target": 12,
+            "value": 6.661539548200879,
+            "sourcename": "test#159 ",
+            "targetname": " src#164"
+        },
+        {
+            "source": 9,
+            "target": 12,
+            "value": 7.444950447277188,
+            "sourcename": "benchmarks#161 ",
+            "targetname": " src#164"
+        },
+        {
+            "source": 4,
+            "target": 12,
+            "value": 0.14058104551755515,
+            "sourcename": "logging#156 ",
+            "targetname": " src#164"
+        },
+        {
+            "source": 12,
+            "target": 8,
+            "value": 1.401669346642255,
+            "sourcename": " src#164 ",
+            "targetname": "selector#160"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "value": 11.191393820593213,
+            "sourcename": " src#164 ",
+            "targetname": " src#165"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}
