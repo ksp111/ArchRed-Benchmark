@@ -1,0 +1,119 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.fasterxml.jackson.annotation",
+            "nodename": "junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.fasterxml.jackson.core",
+            "nodename": "google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "attic#58",
+            "nodename": "attic#58-1",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 3,
+            "name": "JsonNode",
+            "nodename": "src#59-959",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "Annotation",
+            "nodename": "src/main/java/com/fasterxml/jackson/databind/annotation#60-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "Jsonschema",
+            "nodename": "src/main/java/com/fasterxml/jackson/databind/jsonschema#61-4",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "Interop",
+            "nodename": "src/test/java/com/fasterxml/jackson/databind/interop#62-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "TypeFactory",
+            "nodename": "src/test/java/com/fasterxml/jackson/databind/type#63-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "ObjectMapper#64",
+            "nodename": "src/main/java/com/fasterxml/jackson/databind#64-167",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 3,
+            "target": 4,
+            "value": 0.03308581734745891,
+            "sourcename": "src#59 ",
+            "targetname": "annotation#60"
+        },
+        {
+            "source": 3,
+            "target": 8,
+            "value": 27.511475802297447,
+            "sourcename": " src#59 ",
+            "targetname": "databind#64"
+        },
+        {
+            "source": 5,
+            "target": 3,
+            "value": 0.13557115400909994,
+            "sourcename": "jsonschema#61 ",
+            "targetname": " src#59"
+        },
+        {
+            "source": 6,
+            "target": 3,
+            "value": 0.03873461543117141,
+            "sourcename": "interop#62 ",
+            "targetname": " src#59"
+        },
+        {
+            "source": 8,
+            "target": 4,
+            "value": 0.05003221159859641,
+            "sourcename": "databind#64 ",
+            "targetname": "annotation#60"
+        },
+        {
+            "source": 7,
+            "target": 3,
+            "value": 0.1258875001513071,
+            "sourcename": "type#63 ",
+            "targetname": " src#59"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

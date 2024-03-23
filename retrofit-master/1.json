@@ -1,0 +1,155 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.fasterxml.jackson",
+            "nodename": "com.fasterxml.jackson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.quarkus",
+            "nodename": "com.quarkus",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "io.reactivex",
+            "nodename": "io.reactivex",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.gradle.api",
+            "nodename": "org.gradle.api",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "org.simpleframework.xml",
+            "nodename": "org.simpleframework.xml",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "retrofit2#55",
+            "nodename": "retrofit/src/test/java/retrofit2#55-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "http#56",
+            "nodename": "retrofit/src/main/java/retrofit2/http#56-37",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 8,
+            "name": "#57",
+            "nodename": "#57-150",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "retrofit",
+            "nodename": "retrofit-adapters#58-9",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 10,
+            "name": "rxjava#59",
+            "nodename": "retrofit-adapters/rxjava/src/test/java/retrofit2/adapter/rxjava#59-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "rxjava2#60",
+            "nodename": "retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2#60-24",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "rxjava3#61",
+            "nodename": "retrofit-adapters/rxjava3/src/test/java/retrofit2/adapter/rxjava3#61-24",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "retrofit",
+            "nodename": "retrofit-converters#62-18",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "dm#63",
+            "nodename": ".gradle/7.6.2/dependencies-accessors/ab0003f30777b4b8f412023d8a7741eaf2153a26/sources/org/gradle/accessors/dm#63-29",
+            "symbolSize": 5,
+            "category": ""
+        }
+    ],
+    "links": [
+
+        {
+            "source": 11,
+            "target": 8,
+            "value": 8.908885046354786,
+            "sourcename": "rxjava2#60 ",
+            "targetname": " #57"
+        },
+        {
+            "source": 12,
+            "target": 8,
+            "value": 8.908885046354786,
+            "sourcename": "rxjava3#61 ",
+            "targetname": " #57"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "value": 0.7814811444170865,
+            "sourcename": "retrofit2#55 ",
+            "targetname": " #57"
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "value": 0.8192915466274184,
+            "sourcename": " #57 ",
+            "targetname": " retrofit-adapters#58"
+        },
+        {
+            "source": 8,
+            "target": 10,
+            "value": 11.253328479606047,
+            "sourcename": " #57 ",
+            "targetname": "rxjava#59"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.mockito",
+            "nodename": "org.mockito",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.bson",
+            "nodename": "org.bson",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "io.reactivex",
+            "nodename": "io.reactivex",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "android",
+            "nodename": "android",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "throttle#109",
+            "nodename": "examples/rxJavaExample/src/main/java/io/realm/examples/rxjava/throttle#109-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "realm#110",
+            "nodename": "realm-transformer/src/main/java/io/realm#110-3",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 7,
+            "name": "rx#111",
+            "nodename": "realm/realm-library/src/main/java/io/realm/rx#111-3",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "src#112",
+            "nodename": "realm/realm-library/src#112-574",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "retrofit#113",
+            "nodename": "examples/rxJavaExample/src/main/java/io/realm/examples/rxjava/retrofit#113-4",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "threads#114",
+            "nodename": "examples/threadExample/src/main/java/io/realm/examples/threads#114-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "testclasses#115",
+            "nodename": "library-build-transformer/src/test/java/io/realm/buildtransformer/testclasses#115-8",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 12,
+            "name": "annotations#116",
+            "nodename": "realm-annotations/src/main/java/io/realm/annotations#116-10",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 13,
+            "name": "exceptions#117",
+            "nodename": "realm/realm-library/src/main/java/io/realm/exceptions#117-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "realm#118",
+            "nodename": "realm#118-57",
+            "symbolSize": 5,
+            "category": ""
+        }
+    ],
+    "links": [
+        {
+            "source": 8,
+            "target": 13,
+            "value": 12.97054495989139,
+            "sourcename": "src#112 ",
+            "targetname": "exceptions#117"
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "value": 1.763728484077497,
+            "sourcename": "retrofit#113 ",
+            "targetname": "src#112"
+        },
+        {
+            "source": 5,
+            "target": 8,
+            "value": 1.763728484077497,
+            "sourcename": "throttle#109 ",
+            "targetname": "src#112"
+        },
+        {
+            "source": 10,
+            "target": 8,
+            "value": 14.417318053446524,
+            "sourcename": "threads#114 ",
+            "targetname": "src#112"
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 9.084680018507088,
+            "sourcename": "rx#111 ",
+            "targetname": "src#112"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

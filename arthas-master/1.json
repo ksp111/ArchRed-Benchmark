@@ -1,0 +1,147 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.alibaba.bytekit",
+            "nodename": "com.alibaba.bytekit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "io.netty",
+            "nodename": "io.netty",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.springframework",
+            "nodename": "org.springframework",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.apache",
+            "nodename": "org.apache",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "wrapper#143",
+            "nodename": ".mvn/wrapper#143-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "server#146",
+            "nodename": "tunnel-server/src/test/java/com/alibaba/arthas/tunnel/server#146-23",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "client#147",
+            "nodename": "tunnel-client/src/main/java/com/alibaba/arthas/tunnel/client#147-11",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "app#148",
+            "nodename": "tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server/app#148-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "server#149",
+            "nodename": "tunnel-server/src/main/java/com/alibaba/arthas/tunnel/server#149-13",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "common#151",
+            "nodename": "common/src/main/java/com/taobao/arthas/common#151-24",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "telnet#152",
+            "nodename": "client/src/main/java/org/apache/commons/net/telnet#152-28",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "core#153",
+            "nodename": "core/src/main/java/com/taobao/arthas/core#153-471",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 10,
+            "target": 9,
+            "value": 0.34727650058215553,
+            "sourcename": "telnet#152 ",
+            "targetname": "common#151"
+        },
+        {
+            "source": 11,
+            "target": 9,
+            "value": 11.719183599376619,
+            "sourcename": "core#153 ",
+            "targetname": "common#151"
+        },
+        {
+            "source": 11,
+            "target": 6,
+            "value": 3.0698836781093126,
+            "sourcename": "core#153 ",
+            "targetname": "client#147"
+        },
+        {
+            "source": 8,
+            "target": 6,
+            "value": 0.555647239703917,
+            "sourcename": "server#149 ",
+            "targetname": "client#147"
+        },
+        {
+            "source": 7,
+            "target": 6,
+            "value": 1.5743298135173747,
+            "sourcename": "app#148 ",
+            "targetname": "client#147"
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 14.484795000638936,
+            "sourcename": "app#148 ",
+            "targetname": "server#149"
+        },
+        {
+            "source": 5,
+            "target": 11,
+            "value": 2.866449511400652,
+            "sourcename": "server#146",
+            "targetname": "core#153 "
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.alibaba.dubbo",
+            "nodename": "com.alibaba.dubbo",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.alipay.sofa",
+            "nodename": "com.alipay.sofa",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "com.netflix.zuul",
+            "nodename": "com.netflix.zuul",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "io.netty",
+            "nodename": "io.netty",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "com.apache.dubbo",
+            "nodename": "com.apache.dubbo",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "com.apache.http",
+            "nodename": "com.apache.http",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "client#632",
+            "nodename": "sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/client#632-1",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 7,
+            "name": "transport#633",
+            "nodename": "sentinel-transport/sentinel-transport-spring-mvc/src/main/java/com/alibaba/csp/sentinel/transport#633-3",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 8,
+            "name": "#634",
+            "nodename": "#634-1021",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "src#635",
+            "nodename": "sentinel-adapter/sentinel-spring-webflux-adapter/src#635-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "sentinel",
+            "nodename": "sentinel-extension#636-13",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 11,
+            "name": "eagleeye#637",
+            "nodename": "sentinel-core/src/main/java/com/alibaba/csp/sentinel/eagleeye#637-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "src#638",
+            "nodename": "sentinel-adapter/sentinel-spring-webmvc-adapter/src#638-21",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "sentinel",
+            "nodename": "sentinel-demo#639-25",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 14,
+            "name": "src#640",
+            "nodename": "sentinel-core/src#640-42",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "sentinel",
+            "nodename": "sentinel-adapter#641-46",
+            "symbolSize": 5,
+            "category": ""
+        }
+    ],
+    "links": [
+        {
+            "source": 14,
+            "target": 8,
+            "value": 8.281235268920893,
+            "sourcename": "src#640 ",
+            "targetname": " #634"
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "value": 8.064040776703209,
+            "sourcename": "src#635 ",
+            "targetname": " #634"
+        },
+        {
+            "source": 12,
+            "target": 14,
+            "value": 1.113125099185597,
+            "sourcename": "src#638 ",
+            "targetname": "src#640"
+        },
+        {
+            "source": 12,
+            "target": 8,
+            "value": 14.455269277032638,
+            "sourcename": "src#638 ",
+            "targetname": " #634"
+        },
+        {
+            "source": 8,
+            "target": 11,
+            "value": 8.086329578157663,
+            "sourcename": " #634 ",
+            "targetname": "eagleeye#637"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

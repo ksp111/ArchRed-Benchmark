@@ -1,0 +1,196 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.datavec.api",
+            "nodename": "org.datavec.api",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.bytedeco",
+            "nodename": "org.bytedeco",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.apache.commons",
+            "nodename": "org.apache.commons",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.tensorflow.framework",
+            "nodename": "org.tensorflow.framework",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "libnd4j#686",
+            "nodename": "libnd4j/src/test/java/org/nd4j/libnd4j#686-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "onnx#687",
+            "nodename": "platform-tests/src/main/java/org/eclipse/deeplearning4j/modelimport/onnx#687-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "python4j#688",
+            "nodename": "python4j#688-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "conversion#689",
+            "nodename": "nd4j/nd4j-tensorflow/src/main/java/org/nd4j/tensorflow/conversion#689-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "util#690",
+            "nodename": "deeplearning4j/deeplearning4j-zoo/src/main/java/org/deeplearning4j/zoo/util#690-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "impl#691",
+            "nodename": "datavec/datavec-api/src/main/java/org/datavec/api/formats/output/impl#691-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "transform#692",
+            "nodename": "datavec/datavec-api/src/main/java/org/datavec/api/transform#692-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "contrib#693",
+            "nodename": "contrib#693-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "enums#694",
+            "nodename": "nd4j/nd4j-onnxruntime/src/main/java/org/nd4j/onnxruntime/runner/enums#694-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "impl#695",
+            "nodename": "nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/env/impl#695-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "#696",
+            "nodename": "#696-3982",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "transforms#697",
+            "nodename": "datavec/datavec-local/src/main/java/org/datavec/local/transforms#697-11",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "codegen#698",
+            "nodename": "codegen#698-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 17,
+            "name": "deeplearning4j#699",
+            "nodename": "deeplearning4j#699-30",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 18,
+            "name": "nd4j#700",
+            "nodename": "nd4j#700-35",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 9,
+            "target": 14,
+            "value": 4.280205652617774,
+            "sourcename": "impl#691 ",
+            "targetname": " #696"
+        },
+        {
+            "source": 10,
+            "target": 14,
+            "value": 6.593387932130769,
+            "sourcename": "transform#692 ",
+            "targetname": " #696"
+        },
+        {
+            "source": 15,
+            "target": 14,
+            "value": 3.0961022493428865,
+            "sourcename": "transforms#697 ",
+            "targetname": " #696"
+        },
+        {
+            "source": 8,
+            "target": 14,
+            "value": 6.139994313761444,
+            "sourcename": "util#690 ",
+            "targetname": " #696"
+        },
+        {
+            "source": 13,
+            "target": 14,
+            "value": 0.8666544078097476,
+            "sourcename": "impl#695 ",
+            "targetname": " #696"
+        },
+        {
+            "source": 12,
+            "target": 14,
+            "value": 6.740921022556804,
+            "sourcename": "enums#694 ",
+            "targetname": " #696"
+        },
+        {
+            "source": 7,
+            "target": 14,
+            "value": 7.208853252914197,
+            "sourcename": "conversion#689 ",
+            "targetname": " #696"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

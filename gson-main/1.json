@@ -1,0 +1,155 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.fasterxml.jackson",
+            "nodename": "fasterxml",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.google.common.truth.Truth.assertThat",
+            "nodename": "google",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.junit.Test",
+            "nodename": "junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "src#43",
+            "nodename": "gson/src#43-13",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 4,
+            "name": "Example",
+            "nodename": "Example",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "model#45",
+            "nodename": "examples/android-proguard-example/src/com/google/gson/examples/android/model#45-3",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 6,
+            "name": "Annotations",
+            "nodename": "Functional",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "TypeAdapter",
+            "nodename": "gson/src#47-104",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "it#48",
+            "nodename": "shrinker-test/src/test/java/com/google/gson/it#48-1",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 9,
+            "name": "Functional",
+            "nodename": "gson/src/main/java/com/google/gson/internal/sql#49-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "Gson object",
+            "nodename": "gson/src/test/java/com/google/gson#50-40",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "Json Reader and Writer",
+            "nodename": "gson/src/main/java/com/google/gson#51-53",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+
+        {
+            "source": 7,
+            "target": 11,
+            "value": 24.83137527916821,
+            "sourcename": "src#47 ",
+            "targetname": "gson#51"
+        },
+        {
+            "source": 7,
+            "target": 4,
+            "value": 0.5430497469456146,
+            "sourcename": "src#47 ",
+            "targetname": "example#44"
+        },
+        {
+            "source": 9,
+            "target": 7,
+            "value": 0.08739869417373118,
+            "sourcename": "sql#49 ",
+            "targetname": "src#47"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "value": 3.6138649198125234,
+            "sourcename": "functional#46 ",
+            "targetname": "src#47"
+        },
+        {
+            "source": 6,
+            "target": 11,
+            "value": 2.555531845395798,
+            "sourcename": "functional#46 ",
+            "targetname": "gson#51"
+        },
+        {
+            "source": 10,
+            "target": 7,
+            "value": 1.5775228321884207,
+            "sourcename": "gson#50 ",
+            "targetname": "src#47"
+        },
+        {
+            "source": 10,
+            "target": 11,
+            "value": 2.595987098619425,
+            "sourcename": "gson#50 ",
+            "targetname": "gson#51"
+        },
+        {
+            "source": 4,
+            "target": 11,
+            "value": 0.04374566839477767,
+            "sourcename": "example#44 ",
+            "targetname": "gson#51"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

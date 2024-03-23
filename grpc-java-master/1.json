@@ -1,0 +1,329 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.google.common",
+            "nodename": "com.google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.google.protobuf",
+            "nodename": "com.google.protobuf",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "io.netty",
+            "nodename": "io.netty",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "io.opencensus.trace",
+            "nodename": "io.opencensus.trace",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "org.openjdk.jmh",
+            "nodename": "org.openjdk.jmh",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "netty#191",
+            "nodename": "netty/src/jmh/java/io/grpc/netty#191-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "internal#192",
+            "nodename": "binder/src/androidTest/java/io/grpc/binder/internal#192-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "lite#193",
+            "nodename": "protobuf-lite/src/main/java/io/grpc/protobuf/lite#193-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "proto#194",
+            "nodename": "benchmarks/src/generated/main/grpc/io/grpc/benchmarks/proto#194-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "framed#195",
+            "nodename": "okhttp/third_party/okhttp/test/java/io/grpc/okhttp/internal/framed#195-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "src#196",
+            "nodename": "core/src#196-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "servlet#197",
+            "nodename": "servlet/src/test/java/io/grpc/servlet#197-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "dm#198",
+            "nodename": ".gradle/8.2.1/dependencies-accessors/0f8f3151d5d45a7da1d08070d926b8afa09c036d/sources/org/gradle/accessors/dm#198-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "authz#199",
+            "nodename": "authz/src/test/java/io/grpc/authz#199-3",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "grpclb#200",
+            "nodename": "grpclb/src/main/java/io/grpc/grpclb#200-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "stub#201",
+            "nodename": "stub/src/main/java/io/grpc/stub#201-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "stub#202",
+            "nodename": "stub/src/main/java/io/grpc/stub#202-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 17,
+            "name": "stub#203",
+            "nodename": "stub/src/test/java/io/grpc/stub#203-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 18,
+            "name": "alts#204",
+            "nodename": "alts/src/test/java/io/grpc/alts#204-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 19,
+            "name": "inprocess#205",
+            "nodename": "inprocess/src/main/java/io/grpc/inprocess#205-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 20,
+            "name": "internal#206",
+            "nodename": "binder/src/test/java/io/grpc/binder/internal#206-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 21,
+            "name": "integration#207",
+            "nodename": "interop-testing/src/generated/main/grpc/io/grpc/testing/integration#207-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 22,
+            "name": "src#208",
+            "nodename": "android-interop-testing/src#208-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 23,
+            "name": "okhttp#209",
+            "nodename": "okhttp/src/test/java/io/grpc/okhttp#209-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 24,
+            "name": "#210",
+            "nodename": "#210-1185",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 25,
+            "name": "xds#211",
+            "nodename": "xds#211-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 26,
+            "name": "internal#212",
+            "nodename": "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal#212-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 27,
+            "name": "generated#213",
+            "nodename": "android-interop-testing/src/generated#213-16",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 28,
+            "name": "internal#214",
+            "nodename": "alts/src/test/java/io/grpc/alts/internal#214-22",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 29,
+            "name": "grpc#215",
+            "nodename": "api/src/test/java/io/grpc#215-43",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 18,
+            "target": 24,
+            "value": 0.7517283605537616,
+            "sourcename": "alts#204 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 28,
+            "target": 24,
+            "value": 0.10688763435986273,
+            "sourcename": "internal#214 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 22,
+            "target": 24,
+            "value": 3.5947954311942922,
+            "sourcename": "src#208 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 29,
+            "target": 24,
+            "value": 1.2697551849002056,
+            "sourcename": "grpc#215 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 20,
+            "target": 24,
+            "value": 0.7213831423244785,
+            "sourcename": "internal#206 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 14,
+            "target": 24,
+            "value": 2.690017077895133,
+            "sourcename": "grpclb#200 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 19,
+            "target": 24,
+            "value": 2.531218565048896,
+            "sourcename": "inprocess#205 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 24,
+            "target": 28,
+            "value": 0.039532204983033045,
+            "sourcename": " #210 ",
+            "targetname": "internal#214"
+        },
+        {
+            "source": 24,
+            "target": 26,
+            "value": 5.354449757389952,
+            "sourcename": " #210 ",
+            "targetname": "internal#212"
+        },
+        {
+            "source": 23,
+            "target": 24,
+            "value": 2.78049530033078,
+            "sourcename": "okhttp#209 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 23,
+            "target": 26,
+            "value": 4.081042810579222,
+            "sourcename": "okhttp#209 ",
+            "targetname": "internal#212"
+        },
+        {
+            "source": 27,
+            "target": 24,
+            "value": 3.188851200113654,
+            "sourcename": "generated#213 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 15,
+            "target": 24,
+            "value": 4.618421050403175,
+            "sourcename": "stub#201 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 16,
+            "target": 24,
+            "value": 2.0755254409878243,
+            "sourcename": "stub#202 ",
+            "targetname": " #210"
+        },
+        {
+            "source": 17,
+            "target": 24,
+            "value": 3.795881374061792,
+            "sourcename": "stub#203 ",
+            "targetname": " #210"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}
