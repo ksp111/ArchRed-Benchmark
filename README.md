@@ -1,6 +1,6 @@
 Basic Information For Projects
 =======
-|     Projects     |            kLOC           | Files | Released Version | Main Language |
+|     Projects     |            LOC           | Files | Released Version | Main Language |
 |:----------------:|:-------------------------:|:-----:|:----------------:|:-------------:|
 |      antlr4      |           75503           |  521  |      4.13.0      |      Java     |
 |      arthas      |           66827           |  593  |       3.7.0      |      Java     |
