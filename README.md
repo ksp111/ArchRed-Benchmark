@@ -1,6 +1,10 @@
 ArchRed
 =====
-
+The benchmark contains architecture recovery results of 50 Java projects.
+The result files for each project contain three main sections：
+* **CompDGInfodata.txt** is detailed information contained in each component of the architecture diagram, including files, LOC, etc.
+* **ProjectName_architecture.json** is architecture recovery results in terms of json format.
+* **initial_graph.html** is a visual interface to generate component diagrams.
 
 Basic Information For Projects
 =======
