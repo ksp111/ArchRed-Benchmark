@@ -1,0 +1,147 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.noear.solon",
+            "nodename": "org.noear.solon",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.apache.dubbo",
+            "nodename": "org.apache.dubbo",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "io",
+            "nodename": "io",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "com.jfinal",
+            "nodename": "com.jfinal",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "sa",
+            "nodename": "sa-token-plugin#337-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "sa",
+            "nodename": "sa-token-demo/sa-token-demo-sso-for-solon#338-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "sa",
+            "nodename": "sa-token-demo#339-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "sa",
+            "nodename": "sa-token-plugin#340-11",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 8,
+            "name": "up#341",
+            "nodename": "sa-token-demo/sa-token-demo-case/src/main/java/com/pj/cases/up#341-16",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "oauth2#342",
+            "nodename": "sa-token-plugin/sa-token-oauth2/src/main/java/cn/dev33/satoken/oauth2#342-19",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "satoken#343",
+            "nodename": "sa-token-core/src/main/java/cn/dev33/satoken#343-21",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "#344",
+            "nodename": "#344-313",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "sa",
+            "nodename": "sa-token-starter#345-32",
+            "symbolSize": 5,
+            "category": ""
+        },
+        {
+            "id": 13,
+            "name": "sa",
+            "nodename": "sa-token-demo#346-131",
+            "symbolSize": 5,
+            "category": ""
+        }
+    ],
+    "links": [
+        {
+            "source": 6,
+            "target": 11,
+            "value": 3.7510636625978573,
+            "sourcename": "[sa-token-demo#339 ",
+            "targetname": " #344"
+        },
+        {
+            "source": 8,
+            "target": 11,
+            "value": 25.940637523325393,
+            "sourcename": "up#341 ",
+            "targetname": " #344"
+        },
+        {
+            "source": 5,
+            "target": 11,
+            "value": 1.5502799797097198,
+            "sourcename": "sa-token-demo-sso-for-solon#338 ",
+            "targetname": " #344"
+        },
+        {
+            "source": 4,
+            "target": 11,
+            "value": 1.095923047764261,
+            "sourcename": " sa-token-plugin#337 ",
+            "targetname": " #344"
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "value": 7.662095786602771,
+            "sourcename": "oauth2#342 ",
+            "targetname": " #344"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

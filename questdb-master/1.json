@@ -1,0 +1,161 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "io.prometheus.client",
+            "nodename": "io.prometheus.client",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.openjdk.jmh",
+            "nodename": "org.openjdk.jmh",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.postgresql",
+            "nodename": "org.postgresql",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "types#151",
+            "nodename": "core/src/test/java/io/questdb/test/cutlass/text/types#151-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "functions#152",
+            "nodename": "core/src/test/java/io/questdb/test/griffin/engine/functions#152-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "join#153",
+            "nodename": "core/src/test/java/io/questdb/test/griffin/engine/join#153-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "catalogue#154",
+            "nodename": "core/src/test/java/io/questdb/test/griffin/engine/functions/catalogue#154-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "engine#155",
+            "nodename": "core/src/test/java/io/questdb/test/griffin/engine#155-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "sender#156",
+            "nodename": "examples/src/main/java/com/example/sender#156-3",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "cliutil#157",
+            "nodename": "utils/src/main/java/io/questdb/cliutil#157-7",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "std#158",
+            "nodename": "core/src/test/java/io/questdb/test/std#158-50",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "src#159",
+            "nodename": "core/src#159-2866",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 4,
+            "target": 12,
+            "value": 0.1443721025424277,
+            "sourcename": "types#151 ",
+            "targetname": "src#159"
+        },
+        {
+            "source": 8,
+            "target": 12,
+            "value": 0.5739886717809751,
+            "sourcename": "engine#155 ",
+            "targetname": "src#159"
+        },
+        {
+            "source": 5,
+            "target": 12,
+            "value": 0.48154371933533285,
+            "sourcename": "functions#152 ",
+            "targetname": "src#159"
+        },
+        {
+            "source": 7,
+            "target": 12,
+            "value": 0.5452855047909279,
+            "sourcename": "catalogue#154 ",
+            "targetname": "src#159"
+        },
+        {
+            "source": 6,
+            "target": 12,
+            "value": 0.40279533353788927,
+            "sourcename": "join#153 ",
+            "targetname": "src#159"
+        },
+        {
+            "source": 11,
+            "target": 12,
+            "value": 35.41416436767511,
+            "sourcename": "std#158 ",
+            "targetname": "src#159"
+        },
+        {
+            "source": 9,
+            "target": 12,
+            "value": 0.48287307012867653,
+            "sourcename": "sender#156 ",
+            "targetname": "src#159"
+        },
+        {
+            "source": 10,
+            "target": 12,
+            "value": 1.8885639270136887,
+            "sourcename": "cliutil#157 ",
+            "targetname": "src#159"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

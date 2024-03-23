@@ -1,0 +1,176 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.sun.jna",
+            "nodename": "com.sun.jna",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "net.schmizz.sshj",
+            "nodename": "net.schmizz.sshj",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "net.sf.jsqlparser",
+            "nodename": "net.sf.jsqlparser",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.antlr.v4",
+            "nodename": "org.antlr.v4",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "org.eclipse",
+            "nodename": "org.eclipse",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "org.jfree",
+            "nodename": "org.jfree",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "xml#704",
+            "nodename": "plugins/org.jkiss.dbeaver.ui.editors.xml/src/org/jkiss/dbeaver/ui/editors/xml#704-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "graph#705",
+            "nodename": "plugins/org.jkiss.dbeaver.ext.ui.locks/src/org/jkiss/dbeaver/ext/ui/locks/graph#705-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "imageview#706",
+            "nodename": "plugins/org.jkiss.dbeaver.ui.editors.image/src/org/jkiss/dbeaver/ui/controls/imageview#706-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "plugins#707",
+            "nodename": "plugins#707-4781",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "test#708",
+            "nodename": "test#708-11",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "service#709",
+            "nodename": "bundles/org.jkiss.wmi/src/java/org/jkiss/wmi/service#709-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "event#710",
+            "nodename": "plugins/org.jkiss.dbeaver.model.event/src/org/jkiss/dbeaver/model/websocket/event#710-25",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "lang#711",
+            "nodename": "plugins/org.jkiss.dbeaver.lang/src/org/jkiss/dbeaver/lang#711-27",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "plugins#712",
+            "nodename": "plugins#712-69",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "plugins#713",
+            "nodename": "plugins#713-99",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+
+        {
+            "source": 7,
+            "target": 9,
+            "value": 6.6034918864508505,
+            "sourcename": "graph#705 ",
+            "targetname": " plugins#707"
+        },
+        {
+            "source": 13,
+            "target": 9,
+            "value": 0.11637252248060724,
+            "sourcename": "lang#711 ",
+            "targetname": " plugins#707"
+        },
+        {
+            "source": 12,
+            "target": 9,
+            "value": 1.0290576834182574,
+            "sourcename": "event#710 ",
+            "targetname": " plugins#707"
+        },
+        {
+            "source": 14,
+            "target": 9,
+            "value": 3.3673906313619217,
+            "sourcename": " plugins#712 ",
+            "targetname": " plugins#707"
+        },
+        {
+            "source": 6,
+            "target": 9,
+            "value": 2.9922819853987903,
+            "sourcename": "xml#704 ",
+            "targetname": " plugins#707"
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "value": 14.870916417605189,
+            "sourcename": " plugins#707 ",
+            "targetname": "service#709"
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "value": 3.4435303144774387,
+            "sourcename": " plugins#707 ",
+            "targetname": "imageview#706"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

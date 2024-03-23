@@ -1,0 +1,203 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "org.apache.poi",
+            "nodename": "org.apache.poi",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "org.bouncycastle",
+            "nodename": "org.bouncycastle",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "file#496",
+            "nodename": "hutool-cache/src/main/java/cn/hutool/cache/file#496-1",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 3,
+            "name": "dfa#497",
+            "nodename": "hutool-dfa/src/test/java/cn/hutool/dfa#497-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 4,
+            "name": "src#498",
+            "nodename": "hutool-http/src#498-4",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "dialect#499",
+            "nodename": "hutool-log/src/main/java/cn/hutool/log/dialect#499-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "system#500",
+            "nodename": "hutool-system/src/main/java/cn/hutool/system#500-13",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "aop#501",
+            "nodename": "hutool-aop/src/main/java/cn/hutool/aop#501-17",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "src#502",
+            "nodename": "hutool-extra/src#502-17",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "date#503",
+            "nodename": "hutool-core/src/test/java/cn/hutool/core/date#503-21",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "captcha#504",
+            "nodename": "hutool-captcha/src/main/java/cn/hutool/captcha#504-21",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "filter#505",
+            "nodename": "hutool-bloomFilter/src/main/java/cn/hutool/bloomfilter/filter#505-23",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "src#506",
+            "nodename": "hutool-db/src#506-23",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "socket#507",
+            "nodename": "hutool-socket/src/main/java/cn/hutool/socket#507-24",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "extra#508",
+            "nodename": "hutool-extra/src/main/java/cn/hutool/extra#508-42",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "src#509",
+            "nodename": "hutool-core/src#509-52",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "src#510",
+            "nodename": "hutool-core/src#510-1717",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 7,
+            "target": 6,
+            "value": 2.649750439488506,
+            "sourcename": "aop#501 ",
+            "targetname": "src#510"
+        },
+        {
+            "source": 11,
+            "target": 6,
+            "value": 2.4309884454383806,
+            "sourcename": "filter#505 ",
+            "targetname": "src#510"
+        },
+        {
+            "source": 10,
+            "target": 6,
+            "value": 8.166118667356594,
+            "sourcename": "captcha#504 ",
+            "targetname": "src#510"
+        },
+        {
+            "source": 9,
+            "target": 6,
+            "value": 1.7806855532639496,
+            "sourcename": "date#503 ",
+            "targetname": "src#510"
+        },
+        {
+            "source": 12,
+            "target": 6,
+            "value": 7.196932528757543,
+            "sourcename": "src#506 ",
+            "targetname": "src#510"
+        },
+        {
+            "source": 8,
+            "target": 6,
+            "value": 2.2607653221790374,
+            "sourcename": "src#502 ",
+            "targetname": "src#510"
+        },
+        {
+            "source": 6,
+            "target": 5,
+            "value": 5.3644848203143605,
+            "sourcename": "src#510 ",
+            "targetname": "dialect#499"
+        },
+        {
+            "source": 6,
+            "target": 6,
+            "value": 0.30387355567979757,
+            "sourcename": "src#510 ",
+            "targetname": "system#500"
+        },
+        {
+            "source": 13,
+            "target": 6,
+            "value": 7.212829851630254,
+            "sourcename": "socket#507 ",
+            "targetname": "src#510"
+        },
+        {
+            "source": 6,
+            "target": 6,
+            "value": 2.633570815891579,
+            "sourcename": "system#500 ",
+            "targetname": "src#510"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

@@ -1,0 +1,259 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.github.javaparser",
+            "nodename": "com.github.javaparser",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.google.common",
+            "nodename": "com.google.common",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "io.netty",
+            "nodename": "io.netty",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "net.bytebuddy",
+            "nodename": "net.bytebuddy",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "io.opentelemetry",
+            "nodename": "io.opentelemetry",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "org.junit",
+            "nodename": "org.junit",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 6,
+            "name": "org.mockito",
+            "nodename": "org.mockito",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 7,
+            "name": "java#219",
+            "nodename": "java#219-19",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "find#220",
+            "nodename": "java/src/org/openqa/selenium/lift/find#220-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "remote#221",
+            "nodename": "java/test/org/openqa/selenium/remote#221-14",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "devtools#222",
+            "nodename": "java/src/org/openqa/selenium/devtools#222-45",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "data#223",
+            "nodename": "java/src/org/openqa/selenium/grid/data#223-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "selenium#224",
+            "nodename": "java/test/org/openqa/selenium#224-226",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "selenium#225",
+            "nodename": "java/test/org/openqa/selenium#225-21",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "selenium#226",
+            "nodename": "java/src/org/openqa/selenium#226-223",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "docker#227",
+            "nodename": "java/src/org/openqa/selenium/docker#227-26",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "selenium#228",
+            "nodename": "java/src/org/openqa/selenium#228-580",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 10,
+            "target": 14,
+            "value": 0.2612184668251694,
+            "sourcename": "devtools#222 ",
+            "targetname": "selenium#226"
+        },
+        {
+            "source": 10,
+            "target": 16,
+            "value": 1.0942099847419877,
+            "sourcename": "devtools#222 ",
+            "targetname": "selenium#228"
+        },
+        {
+            "source": 15,
+            "target": 12,
+            "value": 0.04166698633153546,
+            "sourcename": "docker#227 ",
+            "targetname": "selenium#224"
+        },
+        {
+            "source": 15,
+            "target": 16,
+            "value": 0.5486127775555599,
+            "sourcename": "docker#227 ",
+            "targetname": "selenium#228"
+        },
+        {
+            "source": 11,
+            "target": 12,
+            "value": 0.020726709160174512,
+            "sourcename": "data#223 ",
+            "targetname": "selenium#224"
+        },
+        {
+            "source": 11,
+            "target": 14,
+            "value": 0.06389128313536922,
+            "sourcename": "data#223 ",
+            "targetname": "selenium#226"
+        },
+        {
+            "source": 11,
+            "target": 16,
+            "value": 0.5930598995668769,
+            "sourcename": "data#223 ",
+            "targetname": "selenium#228"
+        },
+        {
+            "source": 8,
+            "target": 14,
+            "value": 0.008290683664069803,
+            "sourcename": "find#220 ",
+            "targetname": "selenium#226"
+        },
+        {
+            "source": 8,
+            "target": 16,
+            "value": 0.09515574140650469,
+            "sourcename": "find#220 ",
+            "targetname": "selenium#228"
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "value": 0.030298469264016383,
+            "sourcename": "selenium#224 ",
+            "targetname": "devtools#222"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "value": 0.022832294090338316,
+            "sourcename": "selenium#224 ",
+            "targetname": "selenium#225"
+        },
+        {
+            "source": 12,
+            "target": 14,
+            "value": 2.046945256235189,
+            "sourcename": "selenium#224 ",
+            "targetname": "selenium#226"
+        },
+        {
+            "source": 12,
+            "target": 16,
+            "value": 12.747572292810736,
+            "sourcename": "selenium#224 ",
+            "targetname": "selenium#228"
+        },
+        {
+            "source": 9,
+            "target": 14,
+            "value": 0.5060793733277108,
+            "sourcename": "remote#221 ",
+            "targetname": "selenium#226"
+        },
+        {
+            "source": 13,
+            "target": 14,
+            "value": 0.022789679976304995,
+            "sourcename": "selenium#225 ",
+            "targetname": "selenium#226"
+        },
+        {
+            "source": 13,
+            "target": 16,
+            "value": 0.31778128304252073,
+            "sourcename": "selenium#225 ",
+            "targetname": "selenium#228"
+        },
+        {
+            "source": 16,
+            "target": 9,
+            "value": 0.6653063057050951,
+            "sourcename": "selenium#228 ",
+            "targetname": "remote#221"
+        },
+        {
+            "source": 16,
+            "target": 14,
+            "value": 9.791239140341649,
+            "sourcename": "selenium#228 ",
+            "targetname": "selenium#226"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

@@ -1,0 +1,259 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.amazonaws.services",
+            "nodename": "com.amazonaws.services",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "io.fabric8.kubernetes",
+            "nodename": "io.fabric8.kubernetes",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "org.apache.calcite",
+            "nodename": "org.apache.calcite",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.apache.hadoop",
+            "nodename": "org.apache.hadoop",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "org.apache.hive",
+            "nodename": "org.apache.hive",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 5,
+            "name": "flink",
+            "nodename": "flink-libraries#1978-2",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "src#1979",
+            "nodename": "flink-optimizer/src#1979-4",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "src#1980",
+            "nodename": "flink-java/src#1980-6",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "src#1981",
+            "nodename": "flink-streaming-java/src#1981-8",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "flink",
+            "nodename": "flink-end-to-end-tests#1982-9",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 10,
+            "name": "memory#1983",
+            "nodename": "flink-core/src/test/java/org/apache/flink/core/memory#1983-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 11,
+            "name": "flink",
+            "nodename": "flink-end-to-end-tests#1984-10",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 12,
+            "name": "#1985",
+            "nodename": "#1985-12878",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 13,
+            "name": "datadog#1986",
+            "nodename": "flink-metrics/flink-metrics-datadog/src/main/java/org/apache/flink/metrics/datadog#1986-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 14,
+            "name": "codesplit#1987",
+            "nodename": "flink-table/flink-table-code-splitter/src/main/java/org/apache/flink/table/codesplit#1987-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 15,
+            "name": "codesplit#1988",
+            "nodename": "flink-table/flink-table-code-splitter/src/test/java/org/apache/flink/table/codesplit#1988-12",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 16,
+            "name": "flink",
+            "nodename": "flink-architecture-tests#1989-13",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 17,
+            "name": "flink",
+            "nodename": "flink-formats#1990-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 18,
+            "name": "aggregation#1991",
+            "nodename": "flink-java/src/test/java/org/apache/flink/api/java/summarize/aggregation#1991-15",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 19,
+            "name": "aggregation#1992",
+            "nodename": "flink-java/src/main/java/org/apache/flink/api/java/summarize/aggregation#1992-19",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 20,
+            "name": "src#1993",
+            "nodename": "tools/ci/flink-ci-tools/src#1993-22",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 21,
+            "name": "flink",
+            "nodename": "flink-test-utils-parent#1994-32",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 22,
+            "name": "flink",
+            "nodename": "flink-connectors#1995-35",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 23,
+            "name": "builder#1996",
+            "nodename": "flink-core/src/main/java/org/apache/flink/api/java/tuple/builder#1996-45",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 24,
+            "name": "resources#1997",
+            "nodename": "flink-table/flink-table-code-splitter/src/test/resources#1997-108",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 10,
+            "target": 12,
+            "value": 1.3351060589782004,
+            "sourcename": "memory#1983 ",
+            "targetname": " #1985"
+        },
+        {
+            "source": 17,
+            "target": 12,
+            "value": 0.35453636070023753,
+            "sourcename": " flink-formats#1990 ",
+            "targetname": " #1985"
+        },
+        {
+            "source": 18,
+            "target": 19,
+            "value": 21.325790864681345,
+            "sourcename": "aggregation#1991 ",
+            "targetname": "aggregation#1992"
+        },
+        {
+            "source": 18,
+            "target": 12,
+            "value": 0.4497121307388997,
+            "sourcename": "aggregation#1991 ",
+            "targetname": " #1985"
+        },
+        {
+            "source": 12,
+            "target": 11,
+            "value": 3.391187770297435,
+            "sourcename": " #1985 ",
+            "targetname": " flink-end-to-end-tests#1984"
+        },
+        {
+            "source": 12,
+            "target": 19,
+            "value": 4.30207600103608,
+            "sourcename": " #1985 ",
+            "targetname": "aggregation#1992"
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "value": 3.813103926808153,
+            "sourcename": " #1985 ",
+            "targetname": "datadog#1986"
+        },
+        {
+            "source": 12,
+            "target": 14,
+            "value": 0.0752761738916279,
+            "sourcename": " #1985 ",
+            "targetname": "codesplit#1987"
+        },
+        {
+            "source": 14,
+            "target": 12,
+            "value": 0.0752761738916279,
+            "sourcename": "codesplit#1987 ",
+            "targetname": " #1985"
+        },
+        {
+            "source": 15,
+            "target": 12,
+            "value": 0.5269332172413953,
+            "sourcename": "codesplit#1988 ",
+            "targetname": " #1985"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}

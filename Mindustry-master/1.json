@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "com.android.dx",
+            "nodename": "com.android.dx",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 1,
+            "name": "com.sun.tools.javac",
+            "nodename": "com.sun.tools.javac",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 2,
+            "name": "com.codedisaster.steamworks",
+            "nodename": "com.codedisaster.steamworks",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 3,
+            "name": "org.robovm",
+            "nodename": "org.robovm",
+            "symbolSize": 20,
+            "category": "external"
+        },
+        {
+            "id": 4,
+            "name": "mindustry#67",
+            "nodename": "core/src/mindustry#67-275",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 5,
+            "name": "java#68",
+            "nodename": "tests/src/test/java#68-4",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 6,
+            "name": "tools#69",
+            "nodename": "tools/src/mindustry/tools#69-5",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 7,
+            "name": "comp#70",
+            "nodename": "core/src/mindustry/entities/comp#70-43",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 8,
+            "name": "mindustry#71",
+            "nodename": "core/src/mindustry#71-407",
+            "symbolSize": 5,
+            "category": "internal"
+        },
+        {
+            "id": 9,
+            "name": "annotations#72",
+            "nodename": "annotations/src/main/java/mindustry/annotations#72-18",
+            "symbolSize": 5,
+            "category": "internal"
+        }
+    ],
+    "links": [
+        {
+            "source": 4,
+            "target": 8,
+            "value": 19.35205333160245,
+            "sourcename": "mindustry#67 ",
+            "targetname": "mindustry#71"
+        },
+        {
+            "source": 4,
+            "target": 6,
+            "value": 0.07311129307222959,
+            "sourcename": "mindustry#67 ",
+            "targetname": "tools#69"
+        },
+        {
+            "source": 8,
+            "target": 6,
+            "value": 0.20541030390307258,
+            "sourcename": "mindustry#71 ",
+            "targetname": "tools#69"
+        },
+        {
+            "source": 7,
+            "target": 4,
+            "value": 1.5270103750385233,
+            "sourcename": "comp#70 ",
+            "targetname": "mindustry#67"
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 4.677034003884342,
+            "sourcename": "comp#70 ",
+            "targetname": "mindustry#71"
+        },
+        {
+            "source": 5,
+            "target": 8,
+            "value": 0.26200207030767303,
+            "sourcename": "java#68 ",
+            "targetname": "mindustry#71"
+        }
+    ],
+    "categories": [
+        {
+            "name": "internal"
+        },
+        {
+            "name": "external"
+        }
+    ]
+}
